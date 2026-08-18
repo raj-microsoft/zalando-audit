@@ -1,0 +1,242 @@
+<!doctype html><html><head><meta charset="utf-8"><base target="_blank"><style>body{margin:0;font-family:ui-sans-serif,system-ui;color:#111}</style></head><body>
+    
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html lang="nl"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Zalando</title><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="format-detection" content="telephone=no" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="x-apple-disable-message-reformatting" /><meta name="color-scheme" content="light dark only"><meta name="supported-color-schemes" content="light dark only"><link type="image/x-icon" href="https://secure-skin.ztat.net/s/6n1/zalando/img/MAIN/zalando.ico" rel="icon" /><style type="text/css">
+      table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      }
+      a,
+      a:link,
+      a:visited {
+      text-decoration: none;
+      color: #1A1A1A;
+      }
+      a:hover {
+      text-decoration: underline;
+      }
+      #footer a {
+      color: #FFFFFE !important;
+      }
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td {
+      line-height: 100%;
+      }
+      .ExternalClass {
+      width: 100%;
+      }
+      body {
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      Margin:0;
+      }
+      a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+      }
+      [office365] div {
+      display: block !important;
+      }
+      .gmailfix {
+      display:none;
+      display:none!important;
+      }
+      /* Targeting FAQ container for Gmail */
+      .gs li, u+.gs li, u+body .gs li,  u+.body .gs li  {Margin: 0!important;}
+      u+.body .darkmode_grey p+table {max-width:none !important;text-align:left !important;}
+      u+.body .darkmode_faq p+table {background-color:#505153 !important;max-width:none !important;text-align:left !important;}
+      /* Targeting FAQ container */
+      .faq_td > table {max-width:none !important;}
+      .faq_td p, ul, li{Margin: 0!important;}
+      .faq_td u + .body .darkmode_grey table {max-width:none !important;text-align:left !important;}
+      .faq_td u + .body .darkmode_faq table {background-color:#505153 !important;max-width:none !important;text-align:left !important;}
+      .faq_td li {padding-bottom:16px;padding-right:24px;font-family:HelveticaNow,Helvetica,sans-serif;text-align:left;font-size:14px;line-height:20px;letter-spacing:0px;color:#FFFFFE;mso-padding-alt:0px !important;}
+      .faq_td .mobile-full {align:left !important;width:auto !important;float:left !important;} 
+      .faq_td .mobile-full td {vertical-align:top;valign:top;}
+      .faq_td .mobile-full img {display:block!important;}
+    </style><style>
+      /* Fonts from ZDS. Tiempos cannot be bold */
+      @font-face {
+      font-family: Tiempos;
+      font-weight: 400;
+      font-style: normal;
+      src: url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/TiemposText-Regular.v1.woff2) format("woff2"),
+      url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/TiemposText-Regular.v1.woff) format("woff");
+      }
+      @font-face {
+      font-family: HelveticaNow;
+      font-weight: 400;
+      font-style: normal;
+      src: url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Regular.v1.woff2) format("woff2"),
+      url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Regular.v1.woff) format("woff");
+      }
+      @font-face {
+      font-family: HelveticaNow;
+      font-weight: 700;
+      font-style: normal;
+      font-weight: bold;
+      src: url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Bold.v1.woff2) format("woff2"),
+      url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Bold.v1.woff)  format("woff");
+      }
+      /* Media queries */
+      @media screen and (max-width: 600px) {
+      .full-width {width: 100% !important;max-width: 100% !important;}
+      .hide {display: none !important;overflow: hidden !important;max-height: 0px !important;}
+      .show {display: inherit !important;}
+      .revert {display: revert !important;}
+      .width_50 {width: 50% !important;}
+      .width_50_item {width: 50% !important;max-width: 100% !important;}
+      .remove_border {border:none !important;}
+      .inline_block {display:inline-block !important;}
+      .inline_table {display:inline-table !important;}
+      .paddingLeftRight18 {padding-left:18px !important;padding-right:18px !important;}
+      .remove_paddingLeft {padding-left:0px !important;}
+      .remove_paddingRight {padding-right:0px !important;}
+      .paddingRight {padding-right:24px !important;}
+      .paddingLeft {padding-left:24px !important;}
+      }
+      /* DARK MODE STYLES */
+      @media (prefers-color-scheme: dark ) {
+      /* Custom Dark Mode Images */
+      .darkmode_image{ display:block!important;overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; width:inherit !important; line-height: auto !important; Margin-top:0px !important; visibility:inherit !important; }
+      .darkmode_image_inline { display:inline !important; max-height:inherit !important; max-width:inherit !important; width:inherit !important; line-height: auto !important; visibility: visible !important; }
+      .lightmode_image { display:none; display:none!important; }
+      /* Custom Dark Mode Colors */ 
+      .darkmode { background-color: #1A1A1A !important;}
+      .darkmode_button {border: 1px solid #FFFFFE !important;}
+      .darkmodeButtonPrimary {background-color:#FFFFFE !important;border:2px solid #FFFFFE !important;}
+      .darkmodeButtonPrimaryLink {color:#1A1A1A !important;}
+      .darkmodeButtonSecondary {background-color:#1A1A1A !important;border:2px solid #FFFFFE !important;}
+      .darkmodeButtonSecondaryLink {color:#FFFFFE !important;}
+      .darkmodeButtonTertiary {background-color:#1A1A1A !important;border:1px solid #FFFFFE !important;}
+      .darkmodeButtonTertiaryLink {color:#FFFFFE !important;}
+      .darkmode_nwsl_banner {background-color: #f7f7f7;color:#1A1A1A !important;}
+      .darkmode_nwsl_banner td {color:#1A1A1A !important;}
+      .darkmode_nwsl_banner a {color:#1A1A1A !important;}
+      .darkmode_grey {background-color: #505153;}
+      .darkmode_faq {background-color:#505153 !important;max-width:none !important;text-align:left !important;}
+      .darkmode_price_red {color: #D9000C !important;}
+      .darkmode_price_old {color: #FFFFFE !important;}
+      p, span, a, td{ color: #FFFFFE !important; }
+      .ctaLink {text-decoration:none;}
+      .link {border-bottom: 2px solid #FFFFFE !important;}
+      .link_small {border-bottom: 1px solid #FFFFFE !important;}
+      .darkmodeDesignerText {color: #FFFFFE !important;}
+      .darkmodeStatementBackground {background-color:#1A1A1A !important;}
+      .background  {background: none!important;height: auto!important;}
+      }
+      /* Duplicating styles with data-ogsc to target Outlook app */
+      [data-ogsc] .darkmode_image { display:block!important; width: auto !important; overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; line-height: auto !important; Margin-top:0px !important; visibility:inherit !important; }
+      [data-ogsc] .darkmode_image_inline { display:inline !important; max-height:inherit !important; max-width:inherit !important; width:inherit !important; line-height: auto !important; visibility: visible !important; }
+      [data-ogsc] .lightmode_image { display:none; display:none!important;}
+      [data-ogsc] .darkmode { background-color: #1A1A1A !important;}
+      [data-ogsc] .darkmode_button {border: 1px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeButtonPrimary {background-color:#FFFFFE !important;border:2px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeButtonPrimaryLink {color:#1A1A1A !important;}
+      [data-ogsc] .darkmodeButtonSecondary {background-color:#1A1A1A !important;border:2px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeButtonSecondaryLink {color:#FFFFFE !important;}
+      [data-ogsc] .darkmodeButtonTertiary {background-color:#1A1A1A !important;border:1px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeButtonTertiaryLink {color:#FFFFFE !important;}
+      [data-ogsc] .darkmode_nwsl_banner {background-color: #f7f7f7;color:#1A1A1A !important;}
+      [data-ogsc] .darkmode_nwsl_banner td {color:#1A1A1A !important;}
+      [data-ogsc] .darkmode_nwsl_banner a {color:#1A1A1A !important;}
+      [data-ogsc] .darkmode_grey {background-color: #505153}
+      [data-ogsc] .darkmode_faq {background-color:#505153 !important;max-width:none !important;text-align:left !important;}
+      [data-ogsc] .darkmode_price_red {color: #D9000C !important;}
+      [data-ogsc] .darkmode_price_old {color: #FFFFFE !important}
+      [data-ogsc] p, [data-ogsc] span, [data-ogsc] a {color: #FFFFFE !important;}
+      [data-ogsc] .ctaLink {text-decoration:none;}
+      [data-ogsc] .link {border-bottom: 2px solid #FFFFFE !important;}
+      [data-ogsc] .link_small {border-bottom: 1px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeDesignerText {color: #FFFFFE !important;}
+      [data-ogsc] .darkmodeStatementBackground {background-color:#1A1A1A !important;}
+      [data-ogsc] .background {background: none!important;height: auto!important;}
+    </style></head><body class="body" bgcolor="#f2f2f2" style="Margin:0;padding:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;background-color:#f2f2f2;"><table class="hide darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" aria-hidden="true"><tr><td height="40" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><style>
+      @media screen and (max-width: 575px) {
+      .full-width {width: 100% !important;max-width: 100% !important;}
+      .hide {display: none !important;overflow: hidden !important;max-height: 0px !important;}
+      .show {display: inherit !important;}
+      .width_50 {width: 50% !important;}
+      .width_50_item {width: 50% !important;max-width: 100% !important;}
+      .remove_border {border:none !important;}
+      .inline_block {display:inline-block !important;}
+      .inline_table {display:inline-table !important;}
+      .paddingLeftRight18 {padding-left:18px !important;padding-right:18px !important;}
+      .remove_paddingLeft {padding-left:0px !important;}
+      .remove_paddingRight {padding-right:0px !important;}
+      .paddingRight {padding-right:24px !important;}
+      .paddingLeft {padding-left:24px !important;}
+      }
+    </style><table class="darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" role="presentation"><!--[if (gte mso 9)|(IE)]><table class="darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" role="presentation"><tr><td><![endif]--><tr><td><table class="remove_border darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="max-width:642px;border:1px solid #EAEAEA;" bgcolor="#FFFFFE" role="presentation"><!--[if (gte mso 9)|(IE)]><table border="0" cellpadding="0" cellspacing="0" width="642" align="center" role="presentation"><tr><td><![endif]--><tr><td align="center" style="max-width:642px;"><div style="display:none;font-size:0px;color:#999999;line-height:0px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">We mailen je als dit item terug op voorraad komt‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;</div><table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="max-width:600px;" ><tr><td width="100%" align="center" style="max-width:600px;"><img style="display:none!important" alt="" title="" src="https://probe.zalando.com/images/probe.png?t_id=6cbb3666-104d-11f0-a512-a1f39ffa6d5e&amp;m_id=3bed6865-d43d-46a9-a147-b5de5141d447&amp;mo_src=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403." /></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td class="background" valign="top" style="background-image: url('https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/white_header_bg.png');background-size: cover;background-position: top center; background-repeat: repeat;"><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0"><tr><td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:20px;line-height:28px;letter-spacing:-0.2px;text-align:center;color:#1A1A1A;text-decoration:none;padding-left:24px;"><a href="https://www.zalando.nl?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=logo&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=logo" target="_blank"><img class="lightmode_image" src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/zalando_logo_rebranded.png"
+                  style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:20px;line-height:28px;letter-spacing:-0.2px;text-align:center;color:#1A1A1A;text-decoration:none;display:block;" border="0" alt="Zalando" title="" width="176" /><!--[if !mso]><! --><div class="darkmode_image" style="display:none;overflow:hidden;float:left;width:0px;max-height:0px;max-width:0px;line-height:0px;visibility:hidden;" align="center"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/zalando_logo_rebranded_dark.png" style="display:block;" 
+                    border="0" alt="Zalando" title="" width="176" /></div><!--<![endif]--></a></td></tr></table><table role="presentation" class="full-width" align="right" border="0" cellpadding="0" cellspacing="0"><tr><td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="padding-left:24px;padding-right:24px;"><table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" ><tr><td align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:12px;line-height:16px;letter-spacing:0px;text-align:center;font-weight:bold;color:#6328E0;text-transform:capitalize;padding-right:12px;"><a class="link_small" href="https://www.zalando.nl/dames-home/?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=header_cta_women&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=header_cta_women" 
+                      style="font-weight:bold;text-decoration:none;color:#6328E0;border-bottom: 1px solid #6328E0;text-transform:capitalize;"
+                      target="_blank" >Dames</a></td><td align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:12px;line-height:16px;letter-spacing:0px;text-align:center;font-weight:bold;color:#6328E0;text-transform:capitalize;padding-left:12px;padding-right:12px;border-right:1px solid #D0D1D3;border-left:1px solid #D0D1D3;"><a class="link_small" href="https://www.zalando.nl/heren-home/?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=header_cta_men&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=header_cta_men" 
+                      style="font-weight:bold;text-decoration:none;color:#6328E0;border-bottom: 1px solid #6328E0;text-transform:capitalize;"
+                      target="_blank" >Heren</a></td><td align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:12px;line-height:16px;letter-spacing:0px;text-align:center;font-weight:bold;color:#6328E0;text-transform:capitalize;padding-left:12px;padding-right:12px;border-right:1px solid #D0D1D3;border-left:1px solid #D0D1D3;"><a class="link_small" href="https://www.zalando.nl/kinderen-home/?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=header_cta_kids&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=header_cta_kids" 
+                        style="font-weight:bold;text-decoration:none;color:#6328E0;border-bottom: 1px solid #6328E0;text-transform:capitalize;"
+                        target="_blank" >Kinderen</a></td><td align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:12px;line-height:16px;letter-spacing:0px;text-align:center;font-weight:bold;color:#6328E0;text-transform:capitalize;padding-left:12px;padding-right:12px;"><a class="link_small" href="https://www.zalando.nl/beauty-verzorging/?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=header_cta_beauty&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=header_cta_beauty" 
+                        style="font-weight:bold;text-decoration:none;color:#6328E0;border-bottom: 1px solid #6328E0;text-transform:capitalize;"
+                        target="_blank" >beauty</a></td></tr></table></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="12" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="12" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td width="100%" align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:24px;line-height:32px;letter-spacing:-0.24px;text-align:left;font-weight:bold;color:#1A1A1A;padding-left:24px;padding-right:24px;">
+         Volgende keer is het van jou.
+      </td></tr><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;font-weight:bold;color:#1A1A1A;padding-left:24px;padding-right:24px;">
+			Hallo,
+		</td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="left" style="font-family:Tiempos,Times New Roman,serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;color:#1A1A1A;padding-left:24px;padding-right:24px;">
+			Houd je inbox in de gaten voor updates. We geven je een seintje als dit item weer beschikbaar is.
+		</td></tr><tr><td aria-hidden="true"  height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation"><tr><td width="139" align="left" valign="bottom" style="padding-left:24px;"><a href="https://www.zalando.nl/next-jurk-pink-bunny-nx323f2y5-j11.html?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=img_item&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=img_item" target="_blank" style="text-decoration:none;"><img src="https://img01.ztat.net/article/spp-media-p1/db4946ac547b4bc78379b5a5ab0e1b9c/b8508ae7820a4a1ea2e1c4929938b3c3.jpg?imwidth=500&amp;filter=packshot" style="display:block;width:100%;max-width:139px;"></a></td><td align="left" valign="top" style="padding-right:24px;" ><table border="0" cellpadding="0" cellspacing="0" width="100%" align="left" role="presentation"><tr><td style="font-family:Tiempos,Times New Roman,serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;padding-left:12px;">
+                Next
+              </td></tr><!-- /* SHOW CATEGORY IF AVAILABLE, IF NOT SHOW PRODUCT NAME */--><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;text-decoration:none;color:#1A1A1A;padding-left:12px;">
+                Jurk - Jurk
+              </td></tr><tr><td height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;padding-left:12px;">
+                  Vanaf
+                  <!-- /* One price */--><span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;" >€ 26,00</span><!-- /**/--><!-- /* Two prices */--><!-- /**/--><!-- /* Three prices */--><!-- /**/--></td></tr><tr><td height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td style="padding-left:12px;"><span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:12px;line-height:16px;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+                        Kids
+                        
+                      </span></td></tr><tr><td height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;color:#66676E;padding-left:12px;">
+                
+                
+                  Kleur: donkerroze
+                  <br/>
+                
+                
+                
+                  Maat: 80
+                
+              </td></tr><tr ><td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><!-- /*CTA */--></table></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr><td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td align="left" valign="top" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:20px;line-height:28px;letter-spacing:-0.2px;text-align:left;font-weight:bold;color:#1A1A1A;padding-left:24px;padding-right:24px;">
+			Liever nu op zoek naar iets gelijkwaardigs?
+		</td></tr><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td style="padding-right:18px;padding-left:18px;"><!--[if (gte mso 9)|(IE)]><table role="presentation" width="100%"><tr><td width="50%" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" ><![endif]--><table role="presentation" class="full-width"  border="0" cellpadding="0" cellspacing="0" width="100%" align="left" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;"><tr><td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;"><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left"><tr><td aria-hidden="true"><a href="https://www.zalando.nl/next-longsleeve-pink-nx323d2eu-j11.html?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=reco-transaction-mailing-2004_reco1&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=reco-transaction-mailing-2004_reco1" target="_blank"><img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/9a9a0693fe40485e84cf55c03ec3d337/784a09f4b68d4efcbc9f1322eb4a3668.jpg?filter=packshot&amp;imwidth=300" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;" border="0" alt="&nbsp;" /></a></td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;" >Next</td></tr><tr><td align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;text-decoration:none;color:#1A1A1A;" >Sweater</td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;"><span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;" >€ 29,00</span></td></tr><tr><td aria-hidden="true" height="12" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></td><td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;"><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left"><tr><td aria-hidden="true"><a href="https://www.zalando.nl/next-and-printed-wide-leg-joggers-set-broek-cream-nx321j0uj-b11.html?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=reco-transaction-mailing-2004_reco2&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=reco-transaction-mailing-2004_reco2" target="_blank"><img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/b643134bc7ca4e1ba8fcf91b244e6a88/b5eeef80a05d47bda437d238982cd228.jpg?filter=packshot&amp;imwidth=300" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;" border="0" alt="&nbsp;" /></a></td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;" >Next</td></tr><tr><td align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;text-decoration:none;color:#1A1A1A;" >Broek</td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;"><span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;" >€ 35,00</span></td></tr><tr><td aria-hidden="true" height="12" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></td></tr></table><!--[if (gte mso 9)|(IE)]></td><![endif]--><!--[if (gte mso 9)|(IE)]><td width="50%" valign="top"><![endif]--><table role="presentation" class="full-width"  border="0" cellpadding="0" cellspacing="0" width="100%" align="left" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;"><tr><td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;"><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left"><tr><td aria-hidden="true"><a href="https://www.zalando.nl/next-t-shirt-print-blue-pink-stripe-bunny-nx323g2p0-k11.html?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=reco-transaction-mailing-2004_reco3&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=reco-transaction-mailing-2004_reco3" target="_blank"><img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/bc921d2484c6411886b95f024b5bf807/fd6bdcdd38854ae0b0c1d2d5a66c3fcc.jpg?filter=packshot&amp;imwidth=300" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;" border="0" alt="&nbsp;" /></a></td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;" >Next</td></tr><tr><td align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;text-decoration:none;color:#1A1A1A;" >T-shirt print</td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;"><span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;" >€ 11,00</span></td></tr><tr><td aria-hidden="true" height="12" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></td><td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;"><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left"><tr><td aria-hidden="true"><a href="https://www.zalando.nl/next-set-regular-fit-sweater-yellow-bunny-nx323d28u-e11.html?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=reco-transaction-mailing-2004_reco4&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=reco-transaction-mailing-2004_reco4" target="_blank"><img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/d9f512f6e5d04541ba6f0461fe956d4c/6915a5961e6a47dab39e86de4573d081.jpg?filter=packshot&amp;imwidth=300" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;" border="0" alt="&nbsp;" /></a></td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;" >Next</td></tr><tr><td align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;text-decoration:none;color:#1A1A1A;" >Sweater</td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;"><span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:left;color:#1A1A1A;" >€ 24,00</span></td></tr><tr><td aria-hidden="true" height="12" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></td></tr></table><!--[if (gte mso 9)|(IE)]></td><![endif]--><!--[if (gte mso 9)|(IE)]></tr></table><![endif]--></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr><td aria-hidden="true" height="16" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></td></tr></table><table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td height="48" align="center" style="padding-left:24px;padding-right:24px;"><table class="darkmode" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left" bgcolor="#1A1A1A"><tr><td class="darkmodeButtonPrimary" height="48" align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:48px;mso-line-height-alt:16px;letter-spacing:-0.16px;text-align:center;color:#FFFFFE;border: 2px solid #1A1A1A;font-weight:bold;background-color: #1A1A1A;padding-left:12px;padding-right:12px;"><a class="darkmodeButtonPrimaryLink" href="
+https://www.zalando.nl/reco-catalog/NX323F2Y5-J11/cmVjby1jYXRhbG9nPXJlcy1yZWNvLXByb2R1Y3RzLW1haWxpbmctc2ltaWxhci10by1wcm9kdWN0LW1vcmU=?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=btn_reco-catalog&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=btn_reco-catalog" target="_blank" style="color:#FFFFFE;line-height:48px;mso-line-height-alt:16px;font-weight:bold;text-decoration:none;width:100%;display:inline-block;">
+							Ontdek meer
+						</a></td></tr></table></td></tr></table><table aria-hidden="true" border="0" cellpadding="0" cellspacing="0" width="100%" align="center"><tr><td height="32" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td colspan="2" align="left" style="font-family:Tiempos,Times New Roman,serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;color:#1A1A1A;padding-left:24px;padding-right:24px;" >Met vriendelijke groet,</td></tr><tr><td aria-hidden="true" align="left" width="12" style="padding-left:24px;font-family:Tiempos,Times New Roman,serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;color:#1A1A1A;padding-right:6px;">Jouw Zalando-team</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#6328E0"><tr><td style="padding-left:24px;padding-right:24px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="left"><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;font-weight:bold;color:#FFFFFE!important;" >Laat je inspireren</td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left"><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="left"><tr><td align="left" style="padding-right:6px;"><a href="https://www.instagram.com/zalando/" target="_blank"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/icon_instagram.png" style="display:block;" width="35" border="0" alt="" /></a></td><td align="left" style="padding-right:6px;"><a href="https://www.facebook.com/zalando" target="_blank"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/icon_facebook.png" style="display:block;" width="35" border="0" alt="" /></a></td><td align="left" style="padding-right:6px;"><a href="https://www.tiktok.com/@zalando" target="_blank"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/icon_tiktok.png" style="display:block;" width="35" border="0" alt="" /></a></td></tr></table></td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="right"><tr><td align="right" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;font-weight:bold;color:#FFFFFE!important;">Zalando Apps</td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td align="right" style="padding-left:6px;text-align:right;"><a href="https://play.google.com/store/apps/details?id=de.zalando.mobile" target="_blank"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/13c11237-166f-4413-8a00-0616712add40/logo_android.png" style="display:block;" width="35" border="0" alt="" /></a></td><td align="right" style="padding-left:6px;text-align:right;"><a href="https://apps.apple.com/de/app/zalando-fashion-and-shopping/id585629514" target="_blank"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/13c11237-166f-4413-8a00-0616712add40/logo_apple.png" style="display:block;" width="35" border="0" alt="" /></a></td></tr></table></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" ><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:12px;line-height:16px;letter-spacing:0px;text-decoration:none;color:#FFFFFE!important;"><b>Colofon</b><br/><a href="https://www.zalando.nl?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=footer_home&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=footer_home" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">Zalando.nl</a> is onderdeel van Zalando SE
+                        <br/>
+                        Zalando SE, Valeska-Gert-Straße 5, 10243 Berlijn | Wettelijke vertegenwoordigers:
+                        Robert Gentz & David Schröder (beide co-bestuursvoorzitters), Dr. Astrid Arndt, David Schneider | Voorzitter:
+                        Kelly Bennett | Ingeschreven in het handelsregister van het kantongerecht Charlottenburg Berlijn (Duitsland), HRB 158855 B | Internationaal belastingnummer (USt-ID): DE 260543043 | <a href="https://www.zalando.nl/zalando-colofon/?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=footer_more_details&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=footer_more_details" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">Bekijk meer details</a></td></tr><tr><td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:12px;line-height:16px;letter-spacing:0px;text-decoration:none;color:#FFFFFE!important;">
+                        Alle prijzen zijn inclusief BTW. Zolang de voorraad strekt. Prijzen kunnen te allen tijde worden gewijzigd. "Origineel" verwijst naar de eerste verkoopprijs of de aanbevolen verkoopprijs van het item.
+                        Zalando SE heeft haar vorderingen ten aanzien van bovenstaande aankoop overgedragen aan Zalando Payments GmbH.
+                        <br/><br/>
+                        Verantwoordelijke voor eigen inhoud van Zalando SE: Robert Gentz
+                        
+                            <br/><br/>
+                            We streven ernaar alleen relevante e-mails te sturen, maar begrijpen dat je inbox snel volloopt.
+                            <br/><br/>
+                            
+                            Geef met de <a href="https://www.zalando.nl/messages/?cr=&amp;wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=footer_pc&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=footer_pc" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">voorkeursinstellingen</a> aan welke e-mails je wel en niet wilt ontvangen. 
+                            
+                            
+                                <br/><br/>
+                                Indien je helemaal niets meer van ons wilt ontvangen: no hard feelings. Je kunt je <a href="https://www.zalando.nl/messages/unsubscribe?cr=&amp;nsb=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=footer_full_unsub&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=footer_full_unsub" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">hier afmelden</a> voor alle commerciële e-mails van zalando.nl.
+                            
+                        
+                        
+                            <br/><br/>
+                            Dit is een automatische opgestuurde e-mail, gelieve hier niet op te antwoorden. Heb je vragen? Vind het antwoord op onze <a href="https://www.zalando.nl/faq/?wmc=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;cd084=footer_contact&amp;cd085=3bed6865-d43d-46a9-a147-b5de5141d447&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_PRD_NL.ONL_SBS_PMT_TM3_004_250403.&amp;utm_content=footer_contact" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">FAQ-pagina</a> of neem vanaf daar contact met ons op.
+                        
+                    </td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></td></tr></table><a name="footer"></a></td></tr><!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></table></td></tr><!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></table><table class="hide darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" aria-hidden="true"><tr><td height="40" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></body></html>
+    
+</body></html>

@@ -1,0 +1,256 @@
+<!doctype html><html><head><meta charset="utf-8"><base target="_blank"><style>body{margin:0;font-family:ui-sans-serif,system-ui;color:#111}</style></head><body>
+    
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Zalando</title><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="format-detection" content="telephone=no" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="x-apple-disable-message-reformatting" /><meta name="color-scheme" content="light dark only"><meta name="supported-color-schemes" content="light dark only"><link type="image/x-icon" href="https://secure-skin.ztat.net/s/6n1/zalando/img/MAIN/zalando.ico" rel="icon" /><style type="text/css">
+      table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      }
+      a,
+      a:link,
+      a:visited {
+      text-decoration: none;
+      color: #1A1A1A;
+      }
+      a:hover {
+      text-decoration: underline;
+      }
+      #footer a {
+      color: #FFFFFE !important;
+      }
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td {
+      line-height: 100%;
+      }
+      .ExternalClass {
+      width: 100%;
+      }
+      body {
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      Margin:0;
+      }
+      a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+      }
+      [office365] div {
+      display: block !important;
+      }
+      .gmailfix {
+      display:none;
+      display:none!important;
+      }
+      .heading_hide {
+      font-size: 0 !important;
+      line-height: 0 !important;
+      color: transparent !important;
+      height: 0 !important;
+      width: 0 !important;
+      mso-hide: all !important;
+      }
+      /* Targeting FAQ container for Gmail */
+      .gs li, u+.gs li, u+body .gs li,  u+.body .gs li  {Margin: 0!important;}
+      u+.body .darkmode_grey p+table {max-width:none !important;text-align:left !important;}
+      u+.body .darkmode_faq p+table {background-color:#505153 !important;max-width:none !important;text-align:left !important;}
+      /* Targeting FAQ container */
+      .faq_td > table {max-width:none !important;}
+      .faq_td p, ul, li{Margin: 0!important;}
+      .faq_td u + .body .darkmode_grey table {max-width:none !important;text-align:left !important;}
+      .faq_td u + .body .darkmode_faq table {background-color:#505153 !important;max-width:none !important;text-align:left !important;}
+      .faq_td li {padding-bottom:16px;padding-right:24px;font-family:HelveticaNow,Helvetica,sans-serif;text-align:left;font-size:14px;line-height:20px;letter-spacing:0px;color:#FFFFFE;mso-padding-alt:0px !important;}
+      .faq_td .mobile-full {align:left !important;width:auto !important;float:left !important;} 
+      .faq_td .mobile-full td {vertical-align:top;valign:top;}
+      .faq_td .mobile-full img {display:block!important;}
+    </style><style>
+      /* Fonts from ZDS. Tiempos cannot be bold */
+      @font-face {
+      font-family: Tiempos;
+      font-weight: 400;
+      font-style: normal;
+      src: url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/TiemposText-Regular.v1.woff2) format("woff2"),
+      url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/TiemposText-Regular.v1.woff) format("woff");
+      }
+      @font-face {
+      font-family: HelveticaNow;
+      font-weight: 400;
+      font-style: normal;
+      src: url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Regular.v1.woff2) format("woff2"),
+      url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Regular.v1.woff) format("woff");
+      }
+      @font-face {
+      font-family: HelveticaNow;
+      font-weight: 700;
+      font-style: normal;
+      font-weight: bold;
+      src: url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Bold.v1.woff2) format("woff2"),
+      url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Bold.v1.woff)  format("woff");
+      }
+      /* Media queries */
+      @media screen and (max-width: 600px) {
+      .full-width {width: 100% !important;max-width: 100% !important;}
+      .hide {display: none !important;overflow: hidden !important;max-height: 0px !important;}
+      .show {display: inherit !important;}
+      .revert {display: revert !important;}
+      .width_50 {width: 50% !important;}
+      .width_50_item {width: 50% !important;max-width: 100% !important;}
+      .remove_border {border:none !important;}
+      .inline_block {display:inline-block !important;}
+      .inline_table {display:inline-table !important;}
+      .paddingLeftRight18 {padding-left:18px !important;padding-right:18px !important;}
+      .remove_paddingLeft {padding-left:0px !important;}
+      .remove_paddingRight {padding-right:0px !important;}
+      .paddingRight {padding-right:24px !important;}
+      .paddingLeft {padding-left:24px !important;}
+      }
+      /* DARK MODE STYLES */
+      @media (prefers-color-scheme: dark ) {
+      /* Custom Dark Mode Images */
+      .darkmode_image{ display:block!important;overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; width:inherit !important; line-height: auto !important; Margin-top:0px !important; visibility:inherit !important; }
+      .darkmode_image_inline { display:inline !important; max-height:inherit !important; max-width:inherit !important; width:inherit !important; line-height: auto !important; visibility: visible !important; }
+      .lightmode_image { display:none; display:none!important; }
+      /* Custom Dark Mode Colors */ 
+      .darkmode { background-color: #1A1A1A !important;}
+      .darkmode_button {border: 1px solid #FFFFFE !important;}
+      .darkmodeButtonPrimary {background-color:#FFFFFE !important;border:2px solid #FFFFFE !important;}
+      .darkmodeButtonPrimaryLink {color:#1A1A1A !important;}
+      .darkmodeButtonSecondary {background-color:#1A1A1A !important;border:2px solid #FFFFFE !important;}
+      .darkmodeButtonSecondaryLink {color:#FFFFFE !important;}
+      .darkmodeButtonTertiary {background-color:#1A1A1A !important;border:1px solid #FFFFFE !important;}
+      .darkmodeButtonTertiaryLink {color:#FFFFFE !important;}
+      .darkmode_nwsl_banner {background-color: #f7f7f7;color:#1A1A1A !important;}
+      .darkmode_nwsl_banner td {color:#1A1A1A !important;}
+      .darkmode_nwsl_banner a {color:#1A1A1A !important;}
+      .darkmode_grey {background-color: #505153;}
+      .darkmode_faq {background-color:#505153 !important;max-width:none !important;text-align:left !important;}
+      .darkmode_price_red {color: #D9000C !important;}
+      .darkmode_price_old {color: #FFFFFE !important;}
+       p, span, a, td, h1, h2, h3 { color: #FFFFFE !important; }
+      .ctaLink {text-decoration:none;}
+      .link {border-bottom: 2px solid #FFFFFE !important;}
+      .link_small {border-bottom: 1px solid #FFFFFE !important;}
+      .darkmodeDesignerText {color: #FFFFFE !important;}
+      .darkmodeStatementBackground {background-color:#1A1A1A !important;}
+      .background  {background: none!important;height: auto!important;}
+      }
+      /* Duplicating styles with data-ogsc to target Outlook app */
+      [data-ogsc] .darkmode_image { display:block!important; width: auto !important; overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; line-height: auto !important; Margin-top:0px !important; visibility:inherit !important; }
+      [data-ogsc] .darkmode_image_inline { display:inline !important; max-height:inherit !important; max-width:inherit !important; width:inherit !important; line-height: auto !important; visibility: visible !important; }
+      [data-ogsc] .lightmode_image { display:none; display:none!important;}
+      [data-ogsc] .darkmode { background-color: #1A1A1A !important;}
+      [data-ogsc] .darkmode_button {border: 1px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeButtonPrimary {background-color:#FFFFFE !important;border:2px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeButtonPrimaryLink {color:#1A1A1A !important;}
+      [data-ogsc] .darkmodeButtonSecondary {background-color:#1A1A1A !important;border:2px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeButtonSecondaryLink {color:#FFFFFE !important;}
+      [data-ogsc] .darkmodeButtonTertiary {background-color:#1A1A1A !important;border:1px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeButtonTertiaryLink {color:#FFFFFE !important;}
+      [data-ogsc] .darkmode_nwsl_banner {background-color: #f7f7f7;color:#1A1A1A !important;}
+      [data-ogsc] .darkmode_nwsl_banner td {color:#1A1A1A !important;}
+      [data-ogsc] .darkmode_nwsl_banner a {color:#1A1A1A !important;}
+      [data-ogsc] .darkmode_grey {background-color: #505153}
+      [data-ogsc] .darkmode_faq {background-color:#505153 !important;max-width:none !important;text-align:left !important;}
+      [data-ogsc] .darkmode_price_red {color: #D9000C !important;}
+      [data-ogsc] .darkmode_price_old {color: #FFFFFE !important}
+      [data-ogsc] h1, [data-ogsc] h2, [data-ogsc] h3, [data-ogsc] p, [data-ogsc] span, [data-ogsc] a {color: #FFFFFE !important;}
+      [data-ogsc] .ctaLink {text-decoration:none;}
+      [data-ogsc] .link {border-bottom: 2px solid #FFFFFE !important;}
+      [data-ogsc] .link_small {border-bottom: 1px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeDesignerText {color: #FFFFFE !important;}
+      [data-ogsc] .darkmodeStatementBackground {background-color:#1A1A1A !important;}
+      [data-ogsc] .background {background: none!important;height: auto!important;}
+    </style></head><body class="body" bgcolor="#f2f2f2" style="Margin:0;padding:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;background-color:#f2f2f2;"><table class="hide darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" aria-hidden="true"><tr><td height="40" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><style>
+      @media screen and (max-width: 575px) {
+      .full-width {width: 100% !important;max-width: 100% !important;}
+      .hide {display: none !important;overflow: hidden !important;max-height: 0px !important;}
+      .show {display: inherit !important;}
+      .width_50 {width: 50% !important;}
+      .width_50_item {width: 50% !important;max-width: 100% !important;}
+      .remove_border {border:none !important;}
+      .inline_block {display:inline-block !important;}
+      .inline_table {display:inline-table !important;}
+      .paddingLeftRight18 {padding-left:18px !important;padding-right:18px !important;}
+      .remove_paddingLeft {padding-left:0px !important;}
+      .remove_paddingRight {padding-right:0px !important;}
+      .paddingRight {padding-right:24px !important;}
+      .paddingLeft {padding-left:24px !important;}
+      }
+    </style><table class="darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" role="presentation"><!--[if (gte mso 9)|(IE)]><table class="darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" role="presentation"><tr><td><![endif]--><tr><td><table class="remove_border darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="max-width:642px;border:1px solid #EAEAEA;" bgcolor="#FFFFFE" role="presentation"><!--[if (gte mso 9)|(IE)]><table border="0" cellpadding="0" cellspacing="0" width="642" align="center" role="presentation"><tr><td><![endif]--><tr><td align="center" style="max-width:642px;"><div style="display:none;font-size:0px;color:#999999;line-height:0px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">You get all the rewards!‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;</div><table aria-hidden="true" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="max-width:600px;" ><tr><td width="100%" align="center" style="max-width:600px;"><img style="display:none!important" alt="" title="" src="https://probe.zalando.com/images/probe.png?t_id=59302cb8-71a4-11f0-9f6f-bf0bff08e36f&amp;m_id=7485950e-bffc-49ee-a425-cd3b65e314f4&amp;mo_src=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;cd099=notification_centre&amp;cd100=notification_centre_enabled" /></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td valign="top"><h1 style="display:inline-block;width:0;height:0;overflow:hidden;font-size:0;line-height:0;color:transparent;position: absolute;left: -9999px;mso-hide: all; ">
+      Zalando Email
+    </h1></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td class="background" valign="top" style="background-image: url('https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/white_header_bg.png');background-size: cover;background-position: top center; background-repeat: repeat;"><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table width="100%" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation"><tr><td align="left" style="padding-left:24px;"><a role="link" aria-label="Zalando" href="https://www.zalando.nl/plus?context=email&amp;wmc=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;cd084=logo&amp;cd085=7485950e-bffc-49ee-a425-cd3b65e314f4&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;utm_content=logo" target="_blank"><img class="lightmode_image" src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/loyalty_rebrand_2.png"
+                      style="display:block;font-family:HelveticaNow,Helvetica,sans-serif;font-size:20px;line-height:28px;letter-spacing:-0.2px;text-align:center;color:#1A1A1A;text-decoration:none;" width="192" border="0" alt="Zalando" title="" /><!--[if !mso]><! --><div class="darkmode_image" style="display:none; overflow:hidden; float:left;max-height:0px; max-width:0px; line-height:0px; visibility:hidden;text-align: left;" align="center"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/loyalty_rebrand_dark.png" style="display:block;" width="192" border="0" alt="Zalando" title="" /></div><!--<![endif]--></a></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></td></tr></table><table  border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td bgcolor="#3864B2" style="background-color:#3864B2 !important;"><table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td style="padding-left:24px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td class="full-width inline_block" align="left" valign="top" width="302" style="display:inline-block;"><table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td align="left" valign="top" style="padding-right:24px;"><h2 style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:24px;line-height:32px;letter-spacing:-0.24px;text-align:left;font-weight:bold;color:#FFFFFE!important;margin:0;">
+
+
+
+
+All. The. Rewards.
+
+
+</h2></td></tr><tr><td align="left" valign="top" style="padding-right:24px;"><h3 style="font-family:Tiempos,Times New Roman,serif;font-size:24px;line-height:32px;letter-spacing:-0.24px;font-weight: normal;text-align:left;color:#FFFFFE!important;margin:0;">
+
+
+
+
+Yay! You’ve officially made it to the highest level
+
+
+</h3></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></td><td aria-hidden="true" class="full-width inline_block" align="left" valign="bottom" style="display:inline-block;"><a href="https://www.zalando.nl/plus/level-up?wmc=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;cd084=showstopper_img&amp;cd085=7485950e-bffc-49ee-a425-cd3b65e314f4&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;utm_content=showstopper_img" target="_blank" style="text-decoration:none;"><img class="full-width" src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/loyalty-upgrade-four.jpg" style="font-family:Tiempos,Times New Roman,serif;font-size:14px;line-height:20px;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:290px;" width="290" border="0" alt="" title="" /></a></td></tr></table></td></tr></table></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;font-weight:bold;color:#1A1A1A;padding-left:24px;padding-right:24px;">
+			Hi Manasa,
+		</td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="left" style="font-family:Tiempos,Times New Roman,serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;color:#1A1A1A;padding-left:24px;padding-right:24px;">
+			
+  
+    
+    
+    
+      You're a Superstar, and you now get the best rewards. Enjoy — you’ve earned them all!
+    
+  
+
+		</td></tr><tr><td aria-hidden="true"  height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td height="48" align="center" style="padding-left:24px;padding-right:24px;"><table class="darkmode" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left" bgcolor="#1A1A1A"><tr><td class="darkmodeButtonPrimary" height="48" align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:48px;mso-line-height-alt:16px;letter-spacing:-0.16px;text-align:center;color:#FFFFFE;border: 2px solid #1A1A1A;font-weight:bold;background-color: #1A1A1A;padding-left:12px;padding-right:12px;"><a role="link" class="darkmodeButtonPrimaryLink" href="https://www.zalando.nl/plus/level-up?wmc=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;cd084=loyalty_button&amp;cd085=7485950e-bffc-49ee-a425-cd3b65e314f4&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;utm_content=loyalty_button" target="_blank" style="color:#FFFFFE;line-height:48px;mso-line-height-alt:16px;font-weight:bold;text-decoration:none;width:100%;display:inline-block;">
+							You’ve got it all
+
+						</a></td></tr></table></td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td aria-hidden="true" height="12" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:12px;line-height:16px;letter-spacing:0px;color:#66676E;text-align:left;padding-left:24px;padding-right:24px;" >Zalando login required</td></tr><tr><td aria-hidden="true" height="16" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><!-- SPACER START --><table aria-hidden="true" border="0" cellpadding="0" cellspacing="0" width="100%" align="center"><tr><td height="20" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><!-- SPACER END --><table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td style="padding-left:24px;padding-right:24px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#D0D1D3" aria-hidden="true"><tr><td height="1" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left"><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:24px;line-height:32px;letter-spacing:-0.24px;text-align:left;font-weight:bold;color:#1A1A1A;padding-left:24px;padding-right:24px;">
+         
+   
+  
+  
+  Look at all you’ve got
+  
+
+
+      </td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td height="12" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" align="left" role="presentation"><tr><td align="left" valign="top" style="padding-left:24px;padding-right:24px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" align="left" aria-hidden="true"><tr><td align="left" valign="middle"><table align="left" valign="middle" border="0" cellpadding="0" cellspacing="0"><tr><td align="center" valign="middle" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:14px;letter-spacing:0px;text-align:left;font-weight:bold;color:#1A1A1A!important;"><img src="
+    
+        
+        
+        
+        
+                  https://res.cloudinary.com/zalando-global/images/$tierId_!TIER_4!/$tierName_!Superstar!/t_crm_loyalty_tier_tx/p_tier_reset/loyalty_tier.png
+        
+    
+
+" width="136" alt="" style="vertical-align: middle;"></td></tr></table></td></tr></table></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td align="left" valign="top"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td align="left" valign="top" bgcolor="#EFEFF0" style="font-family:Tiempos,Times New Roman,serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;color:#1A1A1A;padding-left:24px;padding-right:24px;padding-top:4px;padding-bottom:4px;"><th:block th:fragment="zalando_rewards_header">Zalando rewards</th:block></td></tr></table></td></tr><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td><!--[if (gte mso 9)|(IE)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="640"><tr><td align="center" valign="top" width="640"><![endif]--><table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:640px;"><tr><td style="font-size:0;" valign="top" align="center"><!--[if (gte mso 9)|(IE)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="640"><tr><td align="left" valign="top" width="320"><![endif]--><table role="presentation" style="width:320px;" class="full-width" width="320" cellspacing="0" cellpadding="0" border="0" align="left"><tr><td align="left" style="padding-left:36px;" class="paddingLeft"><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td aria-hidden="true" align="left" valign="middle" width="24"><img class="lightmode_image" src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/ben_02.png" alt="" width="24"><!--[if !mso]><! --><div class="darkmode_image_inline" style="mso-hide: all; display: none;visibility:hidden;"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/ben_02_dark.png" width="24" alt=""></div><!--<![endif]--></td><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;font-weight:bold;color:#1A1A1A;padding-right:24px;padding-left:16px;"><th:block th:fragment="benefit_standard_shipping">Free delivery on long-distance and orders under € 25,-</th:block><br><span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:24px;font-weight:normal;letter-spacing:-0.16px;text-align:left;color:#66676E;">
+                                                3 
+                                                <th:block th:fragment="sub_benefit_shiping_max_usage"> times per year</th:block></span></td></tr></table></td></tr><tr><td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="padding-left:36px;" class="paddingLeft"><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td aria-hidden="true" align="left" valign="middle" width="24"><img class="lightmode_image" src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/ben_01.png" alt="" width="24"><!--[if !mso]><! --><div class="darkmode_image_inline" style="mso-hide: all; display: none;visibility:hidden;"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/ben_01_dark.png" width="24" alt=""></div><!--<![endif]--></td><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;font-weight:bold;color:#1A1A1A;padding-right:24px;padding-left:16px;"><th:block th:fragment="benefit_targeted_coupon">Exclusive coupons and special offers tailored just for you</th:block></td></tr></table></td></tr><tr><td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="padding-left:36px;" class="paddingLeft"><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td aria-hidden="true" align="left" valign="middle" width="24"><img class="lightmode_image" src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/ben_05.png" alt="" width="24"><!--[if !mso]><! --><div class="darkmode_image_inline" style="mso-hide: all; display: none;visibility:hidden;"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/ben_05_dark.png" width="24" alt=""></div><!--<![endif]--></td><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;font-weight:bold;color:#1A1A1A;padding-right:24px;padding-left:16px;"><th:block th:fragment="benefit_premium_customer_care">Premium customer care</th:block></td></tr></table></td></tr><tr><td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><!--[if (gte mso 9)|(IE)]></td><td align="left" valign="top" width="320"><![endif]--><table role="presentation" style="width:320px;" class="full-width" width="320" cellspacing="0" cellpadding="0" border="0" align="left"><tr><td align="left" style="padding-left:36px;" class="paddingLeft"><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td aria-hidden="true" align="left" valign="middle" width="24"><img class="lightmode_image" src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/ben_06.png" alt="" width="24"><!--[if !mso]><! --><div class="darkmode_image_inline" style="mso-hide: all; display: none;visibility:hidden;"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/ben_06_dark.png" width="24" alt=""></div><!--<![endif]--></td><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;font-weight:bold;color:#1A1A1A;padding-right:24px;padding-left:16px;"><th:block th:fragment="benefit_premium_delivery">Free premium delivery</th:block><br><span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:24px;font-weight:normal;letter-spacing:-0.16px;text-align:left;color:#66676E;">
+                                                3 
+                                                <th:block th:fragment="sub_benefit_shiping_max_usage"> times per year</th:block></span></td></tr></table></td></tr><tr><td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td></tr></table><!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td></tr><tr><td align="left" valign="top"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td align="left" valign="top" bgcolor="#EFEFF0" style="font-family:Tiempos,Times New Roman,serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;color:#1A1A1A;padding-left:24px;padding-right:24px;padding-top:4px;padding-bottom:4px;"><th:block th:fragment="lounge_rewards_header">Lounge by Zalando rewards</th:block></td></tr></table></td></tr><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td><!--[if (gte mso 9)|(IE)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="640"><tr><td align="center" valign="top" width="640"><![endif]--><table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:640px;"><tr><td style="font-size:0;" valign="top" align="center"><!--[if (gte mso 9)|(IE)]><table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="640"><tr><td align="left" valign="top" width="320"><![endif]--><table role="presentation" style="width:320px;" class="full-width" width="320" cellspacing="0" cellpadding="0" border="0" align="left"><tr><td align="left" style="padding-left:36px;" class="paddingLeft"><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td aria-hidden="true" align="left" valign="middle" width="24"><img class="lightmode_image" src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/ben_01.png" alt="" width="24"><!--[if !mso]><! --><div class="darkmode_image_inline" style="mso-hide: all; display: none;visibility:hidden;"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/ben_01_dark.png" width="24" alt=""></div><!--<![endif]--></td><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;font-weight:bold;color:#1A1A1A;padding-right:24px;padding-left:16px;"><th:block th:fragment="lounge_benefit_coupon">Exclusive coupons and special offers</th:block></td></tr></table></td></tr><tr><td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><!--[if (gte mso 9)|(IE)]></td><td align="left" valign="top" width="320"><![endif]--><table role="presentation" style="width:320px;" class="full-width" width="320" cellspacing="0" cellpadding="0" border="0" align="left"><tr><td align="left" style="padding-left:36px;" class="paddingLeft"><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td aria-hidden="true" align="left" valign="middle" width="24"><img class="lightmode_image" src="https://res.cloudinary.com/zalando-global/image/upload/v1730987752/tq9eartssugszbxuiy74.png" alt="" width="24"><!--[if !mso]><! --><div class="darkmode_image_inline" style="mso-hide: all; display: none;visibility:hidden;"><img src="https://res.cloudinary.com/zalando-global/image/upload/v1730987758/q3whqa3uqeugpdh4dt8c.png" width="24" alt=""></div><!--<![endif]--></td><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;font-weight:bold;color:#1A1A1A;padding-right:24px;padding-left:16px;"><th:block th:fragment="lounge_benefit_early_access">Early access to items</th:block></td></tr></table></td></tr><tr><td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td></tr></table><!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"><tr><td colspan="2" align="left" style="font-family:Tiempos,Times New Roman,serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;color:#1A1A1A;padding-left:24px;padding-right:24px;" >See you on the Plus side,</td></tr><tr><td aria-hidden="true" align="left" width="12" style="padding-left:24px;font-family:Tiempos,Times New Roman,serif;font-size:16px;line-height:24px;letter-spacing:-0.16px;text-align:left;color:#1A1A1A;padding-right:6px;">Your Zalando team</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#6328E0"><tr><td style="padding-left:24px;padding-right:24px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="left"><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;font-weight:bold;color:#FFFFFE!important;" >Find inspiration</td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left"><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="left"><tr><td align="left" style="padding-right:6px;"><a role="link" aria-label="Instagram" href="https://www.instagram.com/zalando/" target="_blank"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/icon_instagram.png" style="display:block;" width="35" border="0" alt="Instagram" /></a></td><td align="left" style="padding-right:6px;"><a role="link" aria-label="Facebook" href="https://www.facebook.com/zalando" target="_blank"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/icon_facebook.png" style="display:block;" width="35" border="0" alt="Facebook" /></a></td><td align="left" style="padding-right:6px;"><a role="link" aria-label="TikTok" href="https://www.tiktok.com/@zalando" target="_blank"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/icon_tiktok.png" style="display:block;" width="35" border="0" alt="TikTok" /></a></td></tr></table></td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="right"><tr><td align="right" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:0px;font-weight:bold;color:#FFFFFE!important;">Shop Easily</td></tr><tr><td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td align="right" style="padding-left:6px;text-align:right;"><a role="link" aria-label="Android" href="https://play.google.com/store/apps/details?id=de.zalando.mobile" target="_blank"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/13c11237-166f-4413-8a00-0616712add40/logo_android.png" style="display:block;" width="35" border="0" alt="Android" /></a></td><td align="right" style="padding-left:6px;text-align:right;"><a role="link" aria-label="Apple" href="https://apps.apple.com/de/app/zalando-fashion-and-shopping/id585629514" target="_blank"><img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/13c11237-166f-4413-8a00-0616712add40/logo_apple.png" style="display:block;" width="35" border="0" alt="Apple" /></a></td></tr></table></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:12px;line-height:16px;letter-spacing:0px;text-decoration:none;color:#FFFFFE!important;"><b>Legal notice</b><br/><a href="https://www.zalando.nl?wmc=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;cd084=footer_home&amp;cd085=7485950e-bffc-49ee-a425-cd3b65e314f4&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;utm_content=footer_home" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">Zalando.nl</a> is brought to you by Zalando SE
+                        <br/>
+                        Zalando SE, Valeska-Gert-Straße 5, 10243 Berlin, Germany | Management Board:
+                        Robert Gentz & David Schröder (both co-Chairs of the Board), Dr. Astrid Arndt, David Schneider | Chairperson of the Supervisory Board:
+                        Kelly Bennett | Registered at Amtsgericht Charlottenburg Berlin, HRB 158855 B | VAT ID: DE 260543043 | Tax number: 37/132/45004 | WEEG-Reg.-No GER: 72754189 | <a role="link" href="https://www.zalando.nl/zalando-colofon/?wmc=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;cd084=footer_more_details&amp;cd085=7485950e-bffc-49ee-a425-cd3b65e314f4&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;utm_content=footer_more_details" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">See more details</a></td></tr><tr><td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr><tr><td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:12px;line-height:16px;letter-spacing:0px;text-decoration:none;color:#FFFFFE!important;">
+                        All prices include VAT. Only while stock lasts. All prices subject to change. "Originally" refers to the item's first listing price or recommended retail price.
+                        Zalando SE has assigned its claims under the above referenced purchase to Zalando Payments GmbH.
+                        <br/><br/>
+                        Responsible for contents of Zalando SE: Robert Gentz
+                        
+                        
+                            <br/><br/>
+                            This is an automatic email, please do not reply. Find out how to get in touch by visiting our <a href="https://www.zalando.nl/faq/?wmc=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;cd084=footer_contact&amp;cd085=7485950e-bffc-49ee-a425-cd3b65e314f4&amp;wt_cd=cb688744c6201ecc2cb82109053bb590&amp;tm_hem=04dc6fb3e071782ae6d47964527a4e64&amp;otid=default&amp;utm_source=CRM&amp;utm_medium=Email&amp;utm_campaign=CRM31_TMS_EN.ONL_MIX_NMT_TM_LYL_02_250805.&amp;utm_content=footer_contact" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">help and contact</a> pages.
+                        
+                    </td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true"><tr><td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></td></tr></table><a name="footer"></a></td></tr><!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></table></td></tr><!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></table><table class="hide darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" aria-hidden="true"><tr><td height="40" style="font-size:0px;line-height:0px;">&nbsp;</td></tr></table></body></html>
+    
+</body></html>

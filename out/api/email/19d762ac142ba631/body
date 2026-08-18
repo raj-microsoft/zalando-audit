@@ -1,0 +1,1813 @@
+<!doctype html><html><head><meta charset="utf-8"><base target="_blank"><style>body{margin:0;font-family:ui-sans-serif,system-ui;color:#111}</style></head><body><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+  <!--/* Applying the language so screenreader knows in which language to read the email */-->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Zalando SE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <!--/* Meta tags to support dark mode */-->
+    <meta name="color-scheme" content="light dark only">
+    <meta name="supported-color-schemes" content="light dark only">
+    <!--/* Favicon */-->
+    <link type="image/x-icon" href="https://secure-skin.ztat.net/s/6n1/zalando/img/MAIN/zalando.ico" rel="icon" />
+    <!--/* Reset styles */-->
+    <style type="text/css">
+      table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      }
+      a,
+      a:link,
+      a:visited {
+      text-decoration: none;
+      color: #1A1A1A;
+      }
+      a:hover {
+      text-decoration: underline;
+      }
+      #footer a {
+      color: #FFFFFE !important;
+      }
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td {
+      line-height: 100%;
+      }
+      .ExternalClass {
+      width: 100%;
+      }
+      body {
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      Margin:0;
+      }
+      a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+      }
+      [office365] div {
+      display: block !important;
+      }
+      .gmailfix {
+      display:none;
+      display:none!important;
+      }
+      .heading_hide {
+      font-size: 0 !important;
+      line-height: 0 !important;
+      color: transparent !important;
+      height: 0 !important;
+      width: 0 !important;
+      mso-hide: all !important;
+      }
+      /* Targeting FAQ container for Gmail */
+      .gs li, u+.gs li, u+body .gs li, u+.body .gs li {Margin: 0!important;}
+      u+.body .darkmode_grey p+table {max-width:none !important;text-align:left !important;}
+      u+.body .darkmode_faq p+table { background-color:#505153 !important;max-width:none !important;text-align:left !important; }
+      /* Targeting FAQ container */
+      .faq_td > table {max-width:none !important;}
+      .faq_td p, ul, li{Margin: 0!important;}
+      .faq_td u + .body .darkmode_grey table {max-width:none !important;text-align:left !important;}
+      .faq_td u + .body .darkmode_faq table { background-color:#505153 !important;max-width:none !important;text-align:left !important; }
+      .faq_td li {padding-bottom:16px;padding-right:24px;font-family:HelveticaNow,Helvetica,sans-serif;text-align:left;font-size:14px;line-height:20px;letter-spacing:0px;color:#FFFFFE;mso-padding-alt:0px !important;}
+      .faq_td .mobile-full {align:left !important;width:auto !important;float:left !important;}
+      .faq_td .mobile-full td {vertical-align:top;valign:top;}
+      .faq_td .mobile-full img {display:block!important;}
+    </style>
+    <style>
+      /* Fonts from ZDS. Tiempos cannot be bold */
+      @font-face {
+      font-family: Tiempos;
+      font-weight: 400;
+      font-style: normal;
+      src: url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/TiemposText-Regular.v1.woff2) format("woff2"),
+      url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/TiemposText-Regular.v1.woff) format("woff");
+      }
+      @font-face {
+      font-family: HelveticaNow;
+      font-weight: 400;
+      font-style: normal;
+      src: url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Regular.v1.woff2) format("woff2"),
+      url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Regular.v1.woff) format("woff");
+      }
+      @font-face {
+      font-family: HelveticaNow;
+      font-weight: 700;
+      font-style: normal;
+      font-weight: bold;
+      src: url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Bold.v1.woff2) format("woff2"),
+      url(https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Bold.v1.woff) format("woff");
+      }
+      /* Media queries */
+      @media screen and (max-width: 600px) {
+      .full-width {width: 100% !important;max-width: 100% !important;}
+      .hide {display: none !important;overflow: hidden !important;max-height: 0px !important;}
+      .show {display: inherit !important;}
+      .revert {display: revert !important;}
+      .width_50 {width: 50% !important;}
+      .width_50_item {width: 50% !important;max-width: 100% !important;}
+      .remove_border {border:none !important;}
+      .inline_block {display:inline-block !important;}
+      .inline_table {display:inline-table !important;}
+      .paddingLeftRight18 {padding-left:18px !important;padding-right:18px !important;}
+      .remove_paddingLeft {padding-left:0px !important;}
+      .remove_paddingRight {padding-right:0px !important;}
+      .paddingRight {padding-right:24px !important;}
+      .paddingLeft {padding-left:24px !important;}
+      }
+      /* DARK MODE STYLES */
+      @media (prefers-color-scheme: dark ) {
+      /* Custom Dark Mode Images */
+      .darkmode_image{ display:block!important;overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; width:inherit !important; line-height: auto !important; Margin-top:0px !important; visibility:inherit !important; }
+      .darkmode_image_inline { display:inline !important; max-height:inherit !important; max-width:inherit !important; width:inherit !important; line-height: auto !important; visibility: visible !important; }
+      .lightmode_image { display:none; display:none!important; }
+      /* Custom Dark Mode Colors */
+      .darkmode { background-color: #1A1A1A !important;}
+      .darkmode_button {border: 1px solid #FFFFFE !important;}
+      .darkmodeButtonPrimary { background-color:#FFFFFE !important; }
+      .darkmodeButtonPrimaryLink { color:#1A1A1A !important; }
+      .darkmodeButtonSecondary { background-color:#1A1A1A !important;border:2px solid #FFFFFE !important; }
+      .darkmodeButtonSecondaryLink { color:#FFFFFE !important; }
+      .darkmodeButtonTertiary { background-color:#1A1A1A !important;border:1px solid #FFFFFE !important; }
+      .darkmodeButtonTertiaryLink { color:#FFFFFE !important; }
+      .darkmode_nwsl_banner {background-color: #f7f7f7;color:#1A1A1A !important;}
+      .darkmode_nwsl_banner td {color:#1A1A1A !important;}
+      .darkmode_nwsl_banner a {color:#1A1A1A !important;}
+      .darkmode_grey {background-color: #505153;}
+      .darkmode_faq { background-color:#505153 !important;max-width:none !important;text-align:left !important; }
+      .darkmode_price_red { color: #D9000C !important; }
+      .darkmode_price_old {color: #FFFFFE !important;}
+       p, span, a, td, h1, h2, h3{ color: #FFFFFE !important; }
+      .ctaLink { text-decoration:none; }
+      .link {border-bottom: 2px solid #FFFFFE !important;}
+      .link_small {border-bottom: 1px solid #FFFFFE !important;}
+      .darkmodeDesignerText {color: #FFFFFE !important;}
+      .darkmodeStatementBackground {background-color:#1A1A1A !important;}
+      .background {background: none!important;height: auto!important;}
+      }
+      /* Duplicating styles with data-ogsc to target Outlook app */
+      [data-ogsc] .darkmode_image { display:block!important; width: auto !important; overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; line-height: auto !important; Margin-top:0px !important; visibility:inherit !important; }
+      [data-ogsc] .darkmode_image_inline { display:inline !important; max-height:inherit !important; max-width:inherit !important; width:inherit !important; line-height: auto !important; visibility: visible !important; }
+      [data-ogsc] .lightmode_image { display:none; display:none!important;}
+      [data-ogsc] .darkmode { background-color: #1A1A1A !important;}
+      [data-ogsc] .darkmode_button {border: 1px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeButtonPrimary { background-color:#FFFFFE !important; }
+      [data-ogsc] .darkmodeButtonPrimaryLink { color:#1A1A1A !important; }
+      [data-ogsc] .darkmodeButtonSecondary { background-color:#1A1A1A !important;border:2px solid #FFFFFE !important; }
+      [data-ogsc] .darkmodeButtonSecondaryLink { color:#FFFFFE !important; }
+      [data-ogsc] .darkmodeButtonTertiary { background-color:#1A1A1A !important;border:1px solid #FFFFFE !important; }
+      [data-ogsc] .darkmodeButtonTertiaryLink { color:#FFFFFE !important; }
+      [data-ogsc] .darkmode_nwsl_banner {background-color: #f7f7f7;color:#1A1A1A !important;}
+      [data-ogsc] .darkmode_nwsl_banner td {color:#1A1A1A !important;}
+      [data-ogsc] .darkmode_nwsl_banner a {color:#1A1A1A !important;}
+      [data-ogsc] .darkmode_grey {background-color: #505153}
+      [data-ogsc] .darkmode_faq { background-color:#505153 !important;max-width:none !important;text-align:left !important; }
+      [data-ogsc] .darkmode_price_red { color: #D9000C !important; }
+      [data-ogsc] .darkmode_price_old {color: #FFFFFE !important}
+      [data-ogsc] h1, [data-ogsc] h2, [data-ogsc] h3, [data-ogsc] p, [data-ogsc] span, [data-ogsc] a {color: #FFFFFE !important;}
+      [data-ogsc] .ctaLink { text-decoration:none; }
+      [data-ogsc] .link {border-bottom: 2px solid #FFFFFE !important;}
+      [data-ogsc] .link_small {border-bottom: 1px solid #FFFFFE !important;}
+      [data-ogsc] .darkmodeDesignerText {color: #FFFFFE !important;}
+      [data-ogsc] .darkmodeStatementBackground {background-color:#1A1A1A !important;}
+      [data-ogsc] .background {background: none!important;height: auto!important;}
+    </style>
+  </head>
+  <body class="body" bgcolor="#f2f2f2" style="Margin:0;padding:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;background-color:#f2f2f2;">
+    <!--/* Hide the table on mobile & apply darkmode bgcolor */-->
+    <table class="hide darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" aria-hidden="true">
+      <tr>
+        <td height="40" style="font-size:0px;line-height:0px;">&nbsp;</td>
+      </tr>
+    </table>
+    <!--/* Styles for Yahoo - this should be inside of the body tag in order to work in Yahoo */-->
+    <style>
+      @media screen and (max-width: 575px) {
+      .full-width {width: 100% !important;max-width: 100% !important;}
+      .hide {display: none !important;overflow: hidden !important;max-height: 0px !important;}
+      .show {display: inherit !important;}
+      .width_50 {width: 50% !important;}
+      .width_50_item {width: 50% !important;max-width: 100% !important;}
+      .remove_border {border:none !important;}
+      .inline_block {display:inline-block !important;}
+      .inline_table {display:inline-table !important;}
+      .paddingLeftRight18 {padding-left:18px !important;padding-right:18px !important;}
+      .remove_paddingLeft {padding-left:0px !important;}
+      .remove_paddingRight {padding-right:0px !important;}
+      .paddingRight {padding-right:24px !important;}
+      .paddingLeft {padding-left:24px !important;}
+      }
+    </style>
+    <!--/* Created one more additional wrapper to support bgcolor in email clients like Yahoo, mail.ru, t-online etc */-->
+    <table class="darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" role="presentation">
+    <!--[if (gte mso 9)|(IE)]>
+    <table class="darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" role="presentation">
+    <tr>
+      <td>
+        <![endif]-->
+		<tr>
+		  <td>
+			<table class="remove_border darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="font-size:medium; font-size:max(16px, 1rem);max-width:642px;border:1px solid #EAEAEA;" bgcolor="#FFFFFE" role="presentation">
+			<!--[if (gte mso 9)|(IE)]>
+			<table border="0" cellpadding="0" cellspacing="0" width="642" align="center" role="presentation">
+			<tr>
+			  <td>
+				<![endif]-->
+			<tr>
+			  <td align="center" style="max-width:642px;">
+
+<div style="display:none;font-size:0;line-height:0;max-height:0px;max-width:0px;mso-hide:all;">Cool outfits for every adventure ahead.‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;</div>
+
+<!--/* This is visually hidden level one heading ( <h1> ) which is accessible to screen readers */-->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+  <tr>
+    <td valign="top">
+        <h1 class="heading_hide" style="font-size: 0 !important; line-height: 0 !important; color: transparent !important; height: 0 !important; width: 0 !important; mso-hide: all !important;">
+          Zalando Email
+        </h1>
+    </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+  <tr>
+    <td class="background" valign="top" style=" background-image: url('https://res.cloudinary.com/zalando-global/image/upload/v1730987356/gnly6f51bnkrfcyrnslc.png');background-size: cover;background-position: top center; background-repeat: repeat;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+        <tr>
+          <td height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+      </table>
+      <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+        
+        <tr>
+          <td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:1.25em;line-height:1.4;letter-spacing:-0.2px;text-align:center;color:#1A1A1A;text-decoration:none;padding-left:24px;">
+            <a role="link" aria-label="Zalando" href="https://clicks.zalando.com/f/a/guDpb_kj1pwRs8G1yOKp6w~~/AAAHahA~/rHy-Mkt67Ta1o4D_od4BNIMLxWb1eBHE_UaJ4Be1z82X8PmMLHZA545ximrlwN0kgWO1GY0CgoESAv2esqrBLsbs3QY6PQq_Fwepod-cK-3EZGL8UL6T4ErxvUizJCq6wWeuveG0J917EoPRCuB1aOj-Uc-ktWaHbvHDRhdwYZIlTpnuu2Ih-o6qrMaIfnWO43unw0F1ORfOVKK5fYgoM5731zscRF1kwaGsa1MxOsdDAqEPSiwEHRCuzjtIFFAw9p1nQQ_jzQHHkp4oGaDZHjLBxzqVOBZ0R_dFVhbxewVAiernws3oDrICo0ZcdWE_0yMCrE8QfdgoLo9CPjNuIwU1IDaP0I7XYFNFeRR9arly3FZ2fbIgYvqIWle9kMYT7_PP8re-fdAl6jc8C_pKmT3whOokjqfLEMYHAR9RKtE~" target="_blank">
+              <img class="lightmode_image" src="https://res.cloudinary.com/zalando-global/image/upload/v1727168556/coq3kwbw5jxky4evi3ek.png"
+                style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:1.25em;line-height:1.4;letter-spacing:-0.2px;text-align:center;color:#1A1A1A;text-decoration:none;display:block;" width="132" border="0" alt="Zalando" title="" />
+              <!--[if !mso]><! -->
+              <div class="darkmode_image" style="display:none;overflow:hidden;float:left;width:0px;max-height:0px;max-width:0px;line-height:0px;visibility:hidden;" align="center">
+                <img src="https://res.cloudinary.com/zalando-global/image/upload/v1727169049/ainlfy0uusceu5imf0se.png" style="display:block;" width="132" border="0" alt="Zalando" title="" />
+              </div>
+              <!--<![endif]-->
+            </a>
+          </td>
+        </tr>
+        
+      </table>
+      <table role="presentation" class="full-width" align="right" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left" style="padding-left:24px;padding-right:24px;">
+            <table role="presentation" align="left" border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+                <td align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:center;font-weight:bold;color:#6328E0;padding-right:12px;">
+                  <a role="link" class="link_small " href="https://clicks.zalando.com/f/a/fyAnnrvl0Cdej3TA_oMuxQ~~/AAAHahA~/35eV7SU_3lQ-9krtpo1e4zsyIxV4-fgKnPmZwFlLaD0QADY0F2c0ifNp77XOxOQwDDyNX86o68NHLM1DfT55euBjCFfogxp2cb25Yadht-ibwQxpaMBIrMWd-65-13s29WYVrCogguKNA3Qct8Qg_GHaEYFQLx7TeCtrb-0jNRGw-Z1Kpn6j4oM4EIUjdnzaQ6Yz7N1J0ad2BeJ8ND-dPmVCSTi-q1RT9XkWBNlvrHWUbh7uNbuazhifE5GS3ovwxOfqdJo1ckaSyuXrt1AYsGX7CATf3xIs-Q_E26dvbPkq7z6spPuoUOQMD0NbUUc5cepBNU_6mRAfWbl-wx9DLnF11ySZAyqX_xr4KkqqRygzB7VnCmzd2uNJAiRF68zOPjIgEdCm7pZTQS2AVunL6oaZbnvHMI559Mrpwawe71wXtPYFPf0i8OdyZyH9tVru" style="font-weight:bold;text-decoration:none;color:#6328E0;border-bottom: 1px solid #6328E0;" target="_blank">Men</a>
+                </td>
+                <td align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:center;font-weight:bold;color:#6328E0;padding-left:12px;padding-right:12px;border-right:1px solid #D0D1D3;border-left:1px solid #D0D1D3;">
+                  <a role="link" class="link_small " href="https://clicks.zalando.com/f/a/1weyox8VTS8c6XAVMspZGw~~/AAAHahA~/yZ7zUx3w_bfm6UTRaNyP5wDh7XlSwfoJwnhJND1Effcrt2FQsZrNRzTF8o9nTWRr7uqSBjOMfKpEIaIhUVhsjkM-11UQynyG-mMbHHsSTcV6Y9lm7pFc0TkW3rNe_62RGul5ZV4aP_R2ijlFQD9afxndEEi5qf6rQThNfrJt5qkrTbS9HwSI_DOU5LJ68VKwGpncpe_wc10hAHzOWnMy-4yWKsd-7ziRI5Jl7SAiBGkfVqdFKBSBPZDEPBFLI5CyqXx_UY_LtENM4imVGBlwn_mq7WOENK8Uk-N7vc7zcNgDzH7DNwAtjgMGm3FJZ11u92uZVNQ9r2_-KH7dnpOmp9hKaW6J8USufE-9pJ4MS0_4TMQz1G-nqnJOo1V9mkk_nPLKmCOOvkfGiquzwX-ZZw-fhhxIjM4Mp7RAbfFwbzoatD37iEL-guT6Pnsoef7ZsddZdezRE5a33jNou6_5Kg~~" style="font-weight:bold;text-decoration:none;color:#6328E0;border-bottom: 1px solid #6328E0; " target="_blank">Women</a>
+                </td>
+                <td align="center" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:center;font-weight:bold;color:#6328E0;padding-left:12px;padding-right:12px;border-left:1px solid #D0D1D3;">
+                  <a role="link" class="link_small " href="https://clicks.zalando.com/f/a/DVNQ5pNwpNYddUyAod_PYg~~/AAAHahA~/sqP-oWaprRQLsF3aqUQXPK72QvOh4jRgvBULivtWMY2r66fCsZCK3mOI_RhwB9m_qKyJVjorBuczqKrU56kTrJGiL-3McGiHkYDB9DfFiaQ8VQqPMEWPfcIO413KSMjWDhcWD9IYQfXqEsrlpjP8nSGKDAaD4hrOPBULgiajflY2zR3ndvYG-LDOZk4QnRUSjJDI0MXYJTNDa7GrKjRbA9-AtR1TW825pDabjHvFg7Dncdqb2eg6XfhDMolqcMnvtzKBfyLGsbMx7z28U6RT-oxDaZUnHYhAyl_e4HQ218rHin2zjjAqCSKJj9HIgUoT9aX2K5_TNHrScfWuOKQYIe5Ef46wzdHkiUev21XFFGug7GOfRygKGm7Mfqot7g_KbtASQiiU6eXU0UWDnbk5ubStxKed-mX-klvBPT_TMNriskEZmJGIhmFmhPdhCubYQcdIMyzYwfa4wgsHFY5XiA~~" style="font-weight:bold;text-decoration:none;color:#6328E0;border-bottom: 1px solid #6328E0; " target="_blank">Kids</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+        <tr>
+          <td height="12" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+  <tr>
+    <td height="12" style="font-size:0px;line-height:0px;">&nbsp;</td>
+  </tr>
+</table>
+
+
+
+  
+    
+
+
+
+
+<table class="nothing" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation" bgcolor="#D87C36" style="background-color:#D87C36!important;">
+  <tr>
+    <td style="padding-left:24px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+        <tr>
+          <td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+        <tr>
+          <td class="full-width inline_block" align="left" valign="top" width="302" style="display:inline-block;">
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+              <tr>
+                <td align="left" valign="top" style="padding-right:24px;">
+                  <h2 class="nothing" color="#1A1A1A" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:1.5em;line-height:1.3333;letter-spacing:-0.24px;text-align:left;font-weight:bold;margin:0;color:#1A1A1A!important;">
+                    Cool and comfy
+                  </h2>
+                  </td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" style="padding-right:24px;">
+                  <h3 class="nothing" color="#1A1A1A" style="font-family:Tiempos,Times New Roman,serif;font-size:1.5em;line-height:1.3333;letter-spacing:-0.24px;text-align:left;font-weight: normal;margin:0;color:#1A1A1A!important;">
+                    for babies (0-12 months)
+                  </h3>
+                  </td>
+              </tr>
+            </table>
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+              <tr>
+                <td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+              <tr>
+                <td align="left" style="font-family:Tiempos,Times New Roman,serif;font-size:1em;line-height:1.5;letter-spacing:-0.16px;text-align:left;padding-right:24px;color:#1A1A1A!important;"><font class="nothing" color="#1A1A1A">Light fabrics and breezy pastels for weekend escapes and warmer days.</font></td>
+              </tr>
+            </table>
+            
+            
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+              <tr>
+                <td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td>
+              </tr>
+            </table>
+            
+            
+            <table border="0" cellpadding="0" cellspacing="0" align="left" role="presentation">
+              <tr>
+                <td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:1em;line-height:1.5;letter-spacing:-0.16px;text-align:left;font-weight:bold;text-decoration:none;color:#1A1A1A!important;">
+                  <a role="link" class="ctaLink" href="https://clicks.zalando.com/f/a/K4lrqVZiMjoollEj5oGGmA~~/AAAHahA~/cG63TnVk6OUfV0IYeQjHq_0N3G5XYwEMq7MkT2fbRE5tKZ6hNc2Jj24qDCW_eHxt1W4XpLkSNONUltPEg_syCzRl0JDNWRxZaPChosGQaRnbxWmYoESj1R3Y-JRfMFl7pjz02k6wVnBG8xicALzt6pj8D11iqfwldFyXgz0c1PgmfewcOL3f_OkQgfrE85C60ra-QoU8Bko8DjQOYTY9Yj8C-TdhkF3ToupWibVwePOkpoOMylNdLiFtRROgAAhsDUpb5TUiP-ZVD1dijUz5GYONxrNvaP3Vc8g8YvniM84SBtQ7WHwPl-HWso00spPbThQAFzeNJh8Uvz6rpoLdO4CNweQjVTIbOCCPZxy3uuJaHruxn5tv2DWtiDOC8_Jyh4CgCqoylkmN3xyxsqPu685NSWZHqtxPru7vYL0Et4XjMv3T6XpMtNyPrZbausYx70nSFFBUyAIh11BzMAZjlS9IUQ7P_8B0NLvBhIMs9m9-WDTm_exYYtlxGlhaA315CVh82zohqYv1ehRrubYiHK75zbCVvO6R3Q5f4LFICaVK_TQNm96jlnHU711W-Nnu" style="text-decoration:none;color:#1A1A1A!important;" target="_blank"><font class="nothing" color="#1A1A1A">Shop now</font></a>
+                </td>
+                
+                <td aria-hidden="true" align="left" style="padding-right:12px;padding-left:4px;">
+                  <a href="https://clicks.zalando.com/f/a/K4lrqVZiMjoollEj5oGGmA~~/AAAHahA~/cG63TnVk6OUfV0IYeQjHq_0N3G5XYwEMq7MkT2fbRE5tKZ6hNc2Jj24qDCW_eHxt1W4XpLkSNONUltPEg_syCzRl0JDNWRxZaPChosGQaRnbxWmYoESj1R3Y-JRfMFl7pjz02k6wVnBG8xicALzt6pj8D11iqfwldFyXgz0c1PgmfewcOL3f_OkQgfrE85C60ra-QoU8Bko8DjQOYTY9Yj8C-TdhkF3ToupWibVwePOkpoOMylNdLiFtRROgAAhsDUpb5TUiP-ZVD1dijUz5GYONxrNvaP3Vc8g8YvniM84SBtQ7WHwPl-HWso00spPbThQAFzeNJh8Uvz6rpoLdO4CNweQjVTIbOCCPZxy3uuJaHruxn5tv2DWtiDOC8_Jyh4CgCqoylkmN3xyxsqPu685NSWZHqtxPru7vYL0Et4XjMv3T6XpMtNyPrZbausYx70nSFFBUyAIh11BzMAZjlS9IUQ7P_8B0NLvBhIMs9m9-WDTm_exYYtlxGlhaA315CVh82zohqYv1ehRrubYiHK75zbCVvO6R3Q5f4LFICaVK_TQNm96jlnHU711W-Nnu" style="color:#1A1A1A!important;" target="_blank">
+                  <img src="https://res.cloudinary.com/zalando-global/image/upload/v1730987761/hgwlbxpom8eknqr6m2oe.png" alt="→" width="16" style="display:block;" />
+                  </a>
+                </td>
+                
+              </tr>
+            </table>
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+              <tr>
+                <td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+          
+          <td class="full-width inline_block" align="left" valign="bottom" style="display:inline-block;">
+            <a role="link" href="https://clicks.zalando.com/f/a/3Ilwm1c7CxCmNxiNirqocw~~/AAAHahA~/zt0rOzldAFggPprvj4wXy0BwRwfZ0xpgv0UpLfBuehfT14yGsaZGyCmAAw3X3Dnz9-MUY6TNvzHW39ld58nos9C5PTe321txCwe4yDpdw8nLioZp0hBzQo5RAcpeWWvCe7ksdP9bV107l00_WmPxBUyqoLlnWlR2gZt4u-CfcwX08FbsFqs-_l7jD5hM4eh6o7uA328jz-sbmBuxCh183toVk1dGZkyDn2WZVZvaKF9r4hf_WWssabk8oCP3RyJ2Pzqyb7zHiUU-jNodLhGzCjOgAE1z4KbRTerLm-uHdQGKS9h7ddT8Uhq5XIOOiKAFNWfMj_nWvDs1491QnHrNYhjyjxKHyIzF-FBduNUD6JOg5EimWEh0DffndMi8I4uAyLDbXh49rRohojcssVmeW0qZ322RUA-VrYg7ZqKJDdmwiCKBAOtY0uGA0wd-jkLZj7EIxHT_MOtaVShaSthaeB7jUHBINdEvGm0vQDWTNFoBMOasElbH6rNIzCNmLx_zANhFPizqQmi4mLOhbxgF-55dVqHTX8XxvllKcoJ7RIT237CzDCy0iz3FCYeI49vk" target="_blank" style="text-decoration:none;">
+              <div style="margin:0;font-size:0;line-height:0;"><img class="full-width" src="https://img01.ztat.net/banner/e43c5d3f50cd4750b02c16ac0d20c3d0/6e1aa256e82648499b82e59cd1ac50ed.jpg?imwidth=750?imwidth=600" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:290px;height:auto;" width="290" border="0" alt="Woman smiling at baby she holds on her lap outdoors near a table with coffee, water bottle, and glass on a cobblestone patio."></div>
+            </a>
+          </td>
+          
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+  
+
+<!-- Extract RGB components from the HEX code --><!-- Convert Hex to Decimal Function --><!-- Convert Red (r_hex) --><!-- Convert Green (g_hex) --><!-- Convert Blue (b_hex) --><!-- Set alpha (a) and opacity (o) -->
+<!-- Apply alpha/opacity calculations --><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#E7B086" style="#E7B086">
+
+
+  <tr>
+    <td style="padding-right:18px;padding-left:18px;padding-top:24px;">
+      <!--[if (gte mso 9)|(IE)]>
+      <table role="presentation" width="100%">
+        <tr>
+          <td width="50%" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+            <![endif]-->
+            <table role="presentation" class="full-width" border="0" cellpadding="0" cellspacing="0" width="100%" align="left" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;">
+              <tr><td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/Fc9BVDopH6pf9LByNwV0Bw~~/AAAHahA~/FXT1uw2QNgfnBjqT3SH1zA-bthIp-GncdSg3mHiigQ-4ujP0Is8ZzxjBWLno6URYS3bFc-NAurVXQCDQH8pKWTynTPF5Xr2dtvJFc8wQMUsPObcx_GvN8iqElVca3jtzuQldu2NcACHPw-hIaRFFsrqaLpS2M8SeV5ljafMbKsnUqqEbqhDklVkNa38eYkeYKFaPwaOkUZoXAQlF0uJ82m_069B8yI8cJNC-3lz4J_A-Z6VesUdHbdvUmdM7yuSsQ3_zfa2sONhmphhYX7I85k8SQufLgpEMfb24li9SpldNYfdgePj8vRx-dhvdFUaWbAUD7HMAkuqkgEhdF_lXjJW69Tg9o56sXlXE8RORIdWa6M75jvIxJ6tx18K5zIYH23KXWHz1-fYby3lh5Rq6xxmQmu1ypVvCl9nE0hmS77IPSyLk8PbuRi1S44wHVIw1svsk1j_Z9Ld_rGfFYYRayNpl3VRtg4vulSbpOLrH994-e2oO3vuWX6ZySN0H9vB_td96hCC-spus3J3YdXlQDq8MLKGBWpllWavtyrQcBXVnrFTZRHTvPb77FtgW50Ad" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/ad480841d38e46a09d9bfc03a1acfcb4/9c94beff93d3456db8c1fda191e84bff.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="Light beige baby romper with white bunny and carrot prints, long sleeves, zipper front, and cuffed ankles and wrists.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Kids
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#1A1A1A!important;">
+        Lindex
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#1A1A1A!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;color:#1A1A1A!important;">€22.95</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                <td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/TQZ_MNxl4mj1lcf3a3zgzQ~~/AAAHahA~/fvaX_gURR4tuD23OhGIfSBqZdI8_H8DAVdj42VQZaU0Jiv0GJ4xVNi3t10nvmKPA2klNMj_FNJo6E9dQuqWw7QIikIHZDr2QIlkm8vewCvOfXlZAYcZWeD3YjND15NL9wYPw3FbCwgH8OrTHKkldjMYTCichwqhOX3qTuMjY8UQhudm76kWQCxeG3gf8C6GPXRmBi6ENoBcjTdz-piUmiwVGiVyy9Qc_FocEUHBSfsQFbwiJ_ryasbYyjJ5IFr4Muip3SIV0zwWNfaRYOPkY93ObPkuTFF2r5FB7PwY7lJWnem4OMSASdUs7bREBT9OVoex_FpBY2mquSWTxnCCtbQPw3Y3F8MBYsXotW0AqqiEw7Rjde3Bwwz160lzVU7aUMTV_e8Xa2OzczffWthRR_pMLPBekgNQbPmOPyJmL-golbdL3L39zhBEHSf1_DuYJIVp9p511AObEDSk0uTxbAPTJC_CSaYK76FZACcLbVavptlbaC_yQgLx8MQGqOTTYl_2a8g5MEPILcFDHRTp5V4oUyPTEukKorNhFHWWt0jw~" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/facefc2b45994ffa951a53d6d517ae4c/147bf69445e2455080ef2490491e2b2a.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="Pink long-sleeve baby romper with red and yellow strawberry print, ruffled shoulder details, and front zipper closure.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Kids
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#1A1A1A!important;">
+        Lindex
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#1A1A1A!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;color:#1A1A1A!important;">€34.95</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                
+              </tr>
+            </table>
+            
+            <!--[if (gte mso 9)|(IE)]>
+          </td>
+          <![endif]--><!--[if (gte mso 9)|(IE)]>
+          <td width="50%" valign="top">
+            <![endif]-->
+            <table role="presentation" class="full-width" border="0" cellpadding="0" cellspacing="0" width="100%" align="left" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;">
+              <tr><td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/eutRR2F9utIkMPmf_o5xDw~~/AAAHahA~/FXT1uw2QNgfnBjqT3SH1zA-bthIp-GncdSg3mHiigQ-ZfAfp43UGI-S0tF-GX9KWwyFsxO0q_h9gbiE8zmyWy2o-2kdllp_f9zcfmhtAfRXyTXk8R_7j8eNexj7U8185dj637aXjsQmSflLLe2nAaEibNtqHXjuZKp_68tXxmlA-b3kN9kr-bo8XXSin8vOHjFYWlXrpm4DmxMWE0sEhdDLEQM9jktyqtT-BsjQrlk9Nt6bulfcAhoQPFuO-WT-LWxvp8hwMtYyeHmUK9aG3t47uYjvmxo2IQcdaDyMODsIjsVl0Igry0Ua8E92qig3Oy-N-AlGHHHcIdngWsNIHK_z4yd-mZmzfMoEDYr2zQY3oLRhSfqIRpGUBj1PjMACa8CBc3Q0-UmMSJ0Kc-MifGYMsrqQsp-aDAw1zD8M20vYxO4D7aEXcp8rxSlWgGbBja-GOQ5rzYBKViNOhuC4aMmzI-7ALqdjVyaKNeBJqu-IIQQcRM2okrDVRk4rQnuuvprFOcCek7FXiSpX7QqturuRXVY1QA7ixI2xCYJxMDqYTVDK6Lo4A2PJq7KRD4xtz" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/506376c4ba544836bbde4e2e11a47322/7a0dc18a7537410291f62dc1ca717a6b.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="Yellow two-piece outfit featuring a textured top with ruffled sleeves and a ruffled hem, paired with matching shorts. Notable pink logo detail.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Kids
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#1A1A1A!important;">
+        Levi's®
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#1A1A1A!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;color:#1A1A1A!important;">€49.95</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                <td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/NON7w_Kxdk8OzymKnK7ZZA~~/AAAHahA~/sNxR9Let9xS221xxxmo00pldf-j5b3akJFuv3wNRL4CZrlS6mr-RfC2jXJCRHk0foBUCvUYHmBx-KnJdRnUdjtouU5LAyMP0HNIh6Zi6eE-VYpRVRMpGdA7DyVTjFZB1OHhjCzl9E858ouAcWAqAc6jN7scUHLKf4OCGNbFXZbKE4YG8wq_fARGHQ6L7SM8kcc7kd6nTumWjzexOqYeYIDHKgwtAU7t-cL8GzxnWF2z69cO8rqJCjaavwAPW5jn-7laqDmN9Mdv-D9ASYN_T3rIFQmFbfMX0_S-Gsrbi_MyITdAf4Ppb_XOZdWJ7NBjFTaqznb4BCKnp5ChK-i_UUxFIB2K1gr2EBkFzk2tnJ_TRexYquD0mzRUBKUQHRYKcv-QiRIqRVBAvqMlsw8G7aZ_4VoeALvHRd_Eh9tfBvsn3oHvLDJxTRvEmdXkl72UQSrAE00L_mSHbZ0o8B1QFpelpFCa-p5kFc3FZQsAYeRkZ8561ZEyCr0xz8KqLSETPFC7zEt1fAyAkuCeLgDISinfwUUpxrUfBO0AFv3Sq6uA~" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/8c50bdebf8864de89934ff31cfb30c29/0ba0d4b141c0429c928e1c2f66509e88.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="Cream baby onesie with short sleeves, snap closures at shoulder and crotch, patterned with small blue and brown crabs.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Kids
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#1A1A1A!important;">
+        Joha
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#1A1A1A!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;color:#1A1A1A!important;">€25.95</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+          </td>
+          <![endif]--><!--[if (gte mso 9)|(IE)]>
+        </tr>
+      </table>
+      <![endif]-->
+      
+    </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+  <tr>
+    <td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+  </tr>
+</table>
+
+
+  
+
+  
+
+
+  
+  
+  
+	
+  
+  
+    
+
+
+
+
+<table class="nothing" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation" bgcolor="#F2A90C" style="background-color:#F2A90C!important;">
+  <tr>
+    <td style="padding-left:24px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+        <tr>
+          <td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+        <tr>
+          <td class="full-width inline_block" align="left" valign="top" width="302" style="display:inline-block;">
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+              <tr>
+                <td align="left" valign="top" style="padding-right:24px;">
+                  <h2 class="nothing" color="#1A1A1A" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:1.5em;line-height:1.3333;letter-spacing:-0.24px;text-align:left;font-weight:bold;margin:0;color:#1A1A1A!important;">
+                    Sneaker hot drops
+                  </h2>
+                  </td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" style="padding-right:24px;">
+                  <h3 class="nothing" color="#1A1A1A" style="font-family:Tiempos,Times New Roman,serif;font-size:1.5em;line-height:1.3333;letter-spacing:-0.24px;text-align:left;font-weight: normal;margin:0;color:#1A1A1A!important;">
+                    The freshest arrivals for kids
+                  </h3>
+                  </td>
+              </tr>
+            </table>
+            
+            
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+              <tr>
+                <td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td>
+              </tr>
+            </table>
+            
+            
+            <table border="0" cellpadding="0" cellspacing="0" align="left" role="presentation">
+              <tr>
+                <td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:1em;line-height:1.5;letter-spacing:-0.16px;text-align:left;font-weight:bold;text-decoration:none;color:#1A1A1A!important;">
+                  <a role="link" class="ctaLink" href="https://clicks.zalando.com/f/a/0quHF3Ys-1ksQhVJpfh0gg~~/AAAHahA~/sHGqq7wDyKTlHNR3wmnjS0iab4d6m25scI478CVSdR8RjorLcqbZEphktfgutHCI6ISBXihwHVCKwms1kcud04QI__c3IEfekyeGpFCGieKwJszh6cBnsnh2M8YYKk3R39LLZYfBn44ODKDs-ZKXQnSFta_Nee5PuROKqjurWInHzCTHUUwerRqAM50Lpgtocx_7hOB8RnYiJw2rAS4OgwMq19hzaBLTLd83G-vs_c_rdMgTgInXmXtWGN4k6lQK0K4bNKbLu0c26fW4fI6L2ofDAxIaK7AHDVKd_JY50maKa3SNT_O9be24gf9NgOpRY1a9YagchgNSOzzrAV3rzqCyacjt1j-RH_zf4-lAkzfkufCp7NQgwMHGygUM1GWJKg3uti-KfQqbuPiX1X8BNekwUKuvKknhDkGxGfeK6g9nXXajnZKSF27RR81xx27eJNwv3XJxa1JLUgZ3NU2PhCdvulY8QEMoOTqrl-UlDYNwY1MkXWPJNEqPgL_T4DR0chI917G5AufMcaUiCOcIfcVhn_NmMdVx8E2K6HfLkuzDGGgvnuYddqdYlNbNi2h0b9zwgOrhBPZvULO-jgAPqHjtL_Dfu15bxrwntx4O9m1Lhwg1M34xlbUM3Pjf26JV" style="text-decoration:none;color:#1A1A1A!important;" target="_blank"><font class="nothing" color="#1A1A1A">Shop now</font></a>
+                </td>
+                
+                <td aria-hidden="true" align="left" style="padding-right:12px;padding-left:4px;">
+                  <a href="https://clicks.zalando.com/f/a/0quHF3Ys-1ksQhVJpfh0gg~~/AAAHahA~/sHGqq7wDyKTlHNR3wmnjS0iab4d6m25scI478CVSdR8RjorLcqbZEphktfgutHCI6ISBXihwHVCKwms1kcud04QI__c3IEfekyeGpFCGieKwJszh6cBnsnh2M8YYKk3R39LLZYfBn44ODKDs-ZKXQnSFta_Nee5PuROKqjurWInHzCTHUUwerRqAM50Lpgtocx_7hOB8RnYiJw2rAS4OgwMq19hzaBLTLd83G-vs_c_rdMgTgInXmXtWGN4k6lQK0K4bNKbLu0c26fW4fI6L2ofDAxIaK7AHDVKd_JY50maKa3SNT_O9be24gf9NgOpRY1a9YagchgNSOzzrAV3rzqCyacjt1j-RH_zf4-lAkzfkufCp7NQgwMHGygUM1GWJKg3uti-KfQqbuPiX1X8BNekwUKuvKknhDkGxGfeK6g9nXXajnZKSF27RR81xx27eJNwv3XJxa1JLUgZ3NU2PhCdvulY8QEMoOTqrl-UlDYNwY1MkXWPJNEqPgL_T4DR0chI917G5AufMcaUiCOcIfcVhn_NmMdVx8E2K6HfLkuzDGGgvnuYddqdYlNbNi2h0b9zwgOrhBPZvULO-jgAPqHjtL_Dfu15bxrwntx4O9m1Lhwg1M34xlbUM3Pjf26JV" style="color:#1A1A1A!important;" target="_blank">
+                  <img src="https://res.cloudinary.com/zalando-global/image/upload/v1730987761/hgwlbxpom8eknqr6m2oe.png" alt="→" width="16" style="display:block;" />
+                  </a>
+                </td>
+                
+              </tr>
+            </table>
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+              <tr>
+                <td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+          
+          <td class="full-width inline_block" align="left" valign="bottom" style="display:inline-block;">
+            <a role="link" href="https://clicks.zalando.com/f/a/vlHl8yfC730VVw_qRizQSw~~/AAAHahA~/6s-v1ZC4BBHVfFwqulqTIO8bJsyHzmLCb9UfrwcPEurHfVf4gapWk315Gkb7xw0LcGPqMHgjlrpRUj60jObMoPe10az69KWePWiDtp50_kwdpsSGxWgQIoBCmlcFcQVJyxJm8gOqkE9EfOGuJPngJZCF4G5Wma5qaAtJTA9eLh0uqp6iie6An8iWJkCGQldcEmGcwN7nqSF5E8Jhu-_WMTx1ITIl-xgjqjuvTA5yx1pdU6xp1zDHVBLVUYavQr9pHGeGVAXutoj7s2emoMUMzrOTDjOVfAxWm7815-4q4gRjrki2yC4WKgMHTn6bkpoG9JMmutkawCJZ8NswQr9BbOra1So7Gyg4zfkbWz7Rf7NFyNy-EdxcGEghmfTp4npKh-D6xz7LE_uvg55AC0SpIijcYkqKzJTVx85KLKW5496GkBEd_QeABDbEOcSSJ-Ilmmz6D4M4qOv_hn1C0RYBOcntiK-SwquBBPevYqO02R2bZ9kZGFatiPD10tKPLTbyOMj7xitvXLzGL_B9mgWKwdx80mE7t8Gg0RdlVWuDAINXPF8ku2pcrDb35tnHaF6pod3GESfaOD1dBqgdBZslMP5CK4Wpd1lhHSfZMl9_vkbgjA4igTzIdSyCwxCfuCfH" target="_blank" style="text-decoration:none;">
+              <div style="margin:0;font-size:0;line-height:0;"><img class="full-width" src="https://img01.ztat.net/banner/122388e14322409da720ed3292ffa298/efb9099ae2694255926a36b56435f463.jpg?imwidth=750?imwidth=600" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:290px;height:auto;" width="290" border="0" alt="Three sneakers—black Puma, white Adidas with pink stripes, and gray Nike with orange accents—rest on a pile of yellow balloon clusters shaped like corn."></div>
+            </a>
+          </td>
+          
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+  
+
+<!-- Extract RGB components from the HEX code --><!-- Convert Hex to Decimal Function --><!-- Convert Red (r_hex) --><!-- Convert Green (g_hex) --><!-- Convert Blue (b_hex) --><!-- Set alpha (a) and opacity (o) -->
+<!-- Apply alpha/opacity calculations --><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#F7CB6D" style="#F7CB6D">
+
+
+  <tr>
+    <td style="padding-right:18px;padding-left:18px;padding-top:24px;">
+      <!--[if (gte mso 9)|(IE)]>
+      <table role="presentation" width="100%">
+        <tr>
+          <td width="50%" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+            <![endif]-->
+            <table role="presentation" class="full-width" border="0" cellpadding="0" cellspacing="0" width="100%" align="left" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;">
+              <tr><td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/MjcRUyhCsjPm8pfi6RbMJQ~~/AAAHahA~/degXi7890NfC-ZkvN35mIuILasVq6lWxzw7NG_dvDhCDNILnY6xIOSJaY2T8VGs_6xcWhoXhssIh7QDmhsX3-CpCGfIAOwISHoHoZpWvsrMILbYlCZyawZW-ET-iDz1WzbN1mXU7cXoGImusC1oe9RhGRgutsix87mlrP6krfjmkcMRQGFGlwW5vJv6ratIB-MxcQuzzFJGNg5M-Hbt3mbYJGXeERs_6D2HmoZFis4H8WACI8ic7_IQhbHHB-5jqsyeXuzT7g8ljDCQ_2_ubk-nZicDZnMOjJFCNFEKDxkgGDODKYWjFUjAjxh2ZlG5UY6RNE4MRxOsVnojJilGnomcLO2WINzA27cCSutHB3WyRhCRSl0yFH7Z0TF5OznstMG0bONIc3UI0nXeEj19-3-yJRfm-lo48ePin0kq5LhdctTVEadjRPkb6X5JYmJ2GEpeamLsQ_cMGTOpbY5LzXnForsBqtuawNN32FqUgBe-w0zEmK_NTV2edWl5FU3pYCeHBlFNwo1h7kDTfS4NpgisFz_HtFSnySmOn8HErACYBYJepS1u7FO-_QCJaNuOGGnnxyFyS_ZBd7jnzv-i7Lw~~" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/a50ed861154d4622b10e9cd55fce8b7e/3eacdb3be3b34e8da065f379b0622609.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="White Adidas Superstar sneaker with light pink stripes and heel tab, shell toe, and flat rubber sole, shown from the side on neutral background.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Hot Drops
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#1A1A1A!important;">
+        adidas Originals
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#1A1A1A!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;font-weight:bold;color:#1A1A1A!important;">€67.45</span> 
+            
+            <br/>
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.333;letter-spacing:0px;color:#1A1A1A!important;">Originally:</span> 
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.333;letter-spacing:0px;color:#1A1A1A!important;text-decoration:line-through;">€89.95</span> 
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.333;letter-spacing:0px;color:#1A1A1A!important;">-25%</span> 
+            
+            <br/>
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.333;letter-spacing:0px;color:#1A1A1A!important;">Last lowest price:</span> 
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.333;letter-spacing:0px;color:#1A1A1A!important;text-decoration:line-through;">€71.95</span> 
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.333;letter-spacing:0px;color:#1A1A1A!important;">-6%</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                <td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/AU_3Qp4y8F2bzLVVb4vF3Q~~/AAAHahA~/hZHnlWDGg5hdWXKs21mXttTlyVi4gWK2NwZoWEwkGmWqfKKWskjgz05E22C8ZW3JJk03YyrXAnGPFwJU9OaxoYALPYJoEgOB35zDGOT2XLO-X6AChzpVrQ1YSrGZW7BBnZDdgbJH8bFVf1UtULXhxJQHPBBjlQ0IQi_3VKaO5g8QUg-oxa4L4eAl5yMzeeocku9HUJjWoEk_KtclSmgXQ72m2Fv2mWU-cQzslRne38cU-_hS_2ju9IudQeCodw63qoQ5RY9Qh5myOOtNWavs68Ww6-mWEvCXVb9M2YcOyoe9RzvbdFXqtztetYVB9bPyU-w4VuvemKXvzLk6zoJl50SRbpJFlmDVhRv6WLFVpScsnVdYTeOnn6fl9fZ3eBaXyDBpu6lTRG7iNvTwm-SyvRHEF848K_VsDU9nBh1Fpyg8egmuC2gqCxQw0Ro0HNyTLj3_ndVIvtORmLy40mI9HdzUeF26FWdyQhMH9mdA4oQIvDfAOBBKdmvILcNBsy0s-eFaJfdJn6dDVOpZZzvIQMc7GHtjNy0g6f3Q6Mrmy09g0mdWqp2SVb_jW0Eh4pITVoMhJiMkQgEpgp_2lNDjAg~~" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/354031157c044b049250b231d5aa3b57/ff43d4b62689466597b4c7ec9496bcfe.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="Black Puma Palermo sneaker with white stripe, gold logo, black sole, and lace cover on a light gray background.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Hot Drops
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#1A1A1A!important;">
+        Puma
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#1A1A1A!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;color:#1A1A1A!important;">€69.95</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                
+              </tr>
+            </table>
+            
+            <!--[if (gte mso 9)|(IE)]>
+          </td>
+          <![endif]--><!--[if (gte mso 9)|(IE)]>
+          <td width="50%" valign="top">
+            <![endif]-->
+            <table role="presentation" class="full-width" border="0" cellpadding="0" cellspacing="0" width="100%" align="left" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;">
+              <tr><td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/o22sbMuKsZZT9V4OWgxA_g~~/AAAHahA~/5rFKOII5VJEdSWYIAcKIveAF_NR9FgfZ_uqKJHVdTsjbQoEHiXi21Mdmhxrvb3Q9QOKAGzvlW_y_12bl44NLrJdBboflzs51M4KlnbvRISs5z_M8I7fWwxB3F9ubt9PkQQMu3uF67X4F-AbXKtKl9fwmE4e6T7ecitKu3EJ614P4t3_e8QBT4E_sGrO8Rt1cGX0peWySsLpR2cjeKQV6wCfTsU6m6wBBvdgsFplZqkkzYoJsNr-DQRopl23dY-m0DvBjOWsWMqZ8VDdgB3Mb2SAJh0M3XZXM9qNLfOvyhkUvHrqleIiu37MJ9kJguHk9NE70P6fEpmIMcHUV38suKJ_a2soEcAG8Y_EMG_ISY7qJOt_-rrs1x094u4rX2r03xC1FqviP_dCYeGjaVT3SDFqrKJUWh5XE22VSQqhK6oMD1b6VH7H2jjbajDOlJo9nNF7esMEtizRjbsxtvOXl20O8ZLGVmmykrlUbgB2JhDZsEovXYOfrxTLaLIwExk3ECmEAmc1tryKSaBXSJXgwsy9GNDZpZauW2Ga0WiVseHR7aDN004M3T-UFLaFXihqMWD6TGWSUEe_hQhgd7_c_trKQ0y13wg9GgaUdvgWo2mVjHVRDMTuB-mDvxGcKIffk" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/ebbae1ebbfe945b69bd18e2a0c78e6a5/0d80a3c8a00340af9e9cd9618d2de3fa.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="Black and yellow athletic sneaker with white Nike swoosh, detailed mesh upper, and thick textured sole, shown in side profile.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Hot Drops
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#1A1A1A!important;">
+        Nike Sportswear
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#1A1A1A!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;color:#1A1A1A!important;">€89.95</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                <td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/NT7sSPQU6lqdIui-EtTqYA~~/AAAHahA~/e87L9_b8kLa7X3iuolBC1QXozNo6z2CytLXV3UCLd-bzSqpDe50KnZskJoB8JJ5i9-V5irKKiHphXTfW7HAeR0fiOUO3TnsrDXP_t1XoJwQH93-xPJs-SBWm4cTJ8g-IASHpYaiB_5GuZ8goChnWGfUKunwhUuX03M_jr54pIAZLK8Yd_yHQQsL7NxNN--O0_cgJwRGb1lno4XEouxY1gGZY3k-5qup_5M0f7BU8Epr0ueDXZwT2uD17qYNfwz9lGoMNpnoXIpBBy4OiWbXvkYZsq-uBSV4o3ohQoEAMvs95jsMNVeVgD-xoYsLOD4EY5-80xCMXh0km6EwRi8cXYbQP31-QFL4_PLVS-8rHpxNbY2RJBdO4-aFXNiTGQIXUKF5XcyeTBnbR0IARAmrlnzuqbYkWiXvviIjSOoaInZjmt-hpzXRQk92x8wGc6HnyNhEEUoFhHVMlGTCUwWLanIkJxogA8LO6pmcp-8aFfLBH26XQOgOnOZlh6aP92E7W0wWtCOoFY5D0R_a9-zoB4KvuONnfXg3ElSLiOY4etbp5OnvcJcL99PMAx8J9_mQTvwqgUCWGYg0ALBZzOaxEfQ~~" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/370f786976d24953af210c4765db9d46/e9c7b2c66fa1478c96f70999f65154f8.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="Nike running shoes feature a silver and blue design, mesh and synthetic materials, with a cushioned sole and rubber outsole for grip.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Kids
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#1A1A1A!important;">
+        Nike Sportswear
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#1A1A1A!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;color:#1A1A1A!important;">€69.95</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+          </td>
+          <![endif]--><!--[if (gte mso 9)|(IE)]>
+        </tr>
+      </table>
+      <![endif]-->
+      
+    </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+  <tr>
+    <td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+  </tr>
+</table>
+
+
+  
+
+  
+
+
+  
+  
+  
+	
+  
+  
+    
+
+
+
+
+<table class="nothing" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation" bgcolor="#0974B2" style="background-color:#0974B2!important;">
+  <tr>
+    <td style="padding-left:24px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+        <tr>
+          <td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+        <tr>
+          <td class="full-width inline_block" align="left" valign="top" width="302" style="display:inline-block;">
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+              <tr>
+                <td align="left" valign="top" style="padding-right:24px;">
+                  <h2 class="nothing" color="#FFFFFE" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:1.5em;line-height:1.3333;letter-spacing:-0.24px;text-align:left;font-weight:bold;margin:0;color:#FFFFFE!important;">
+                    A good run
+                  </h2>
+                  </td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" style="padding-right:24px;">
+                  <h3 class="nothing" color="#FFFFFE" style="font-family:Tiempos,Times New Roman,serif;font-size:1.5em;line-height:1.3333;letter-spacing:-0.24px;text-align:left;font-weight: normal;margin:0;color:#FFFFFE!important;">
+                    Starts with good gear
+                  </h3>
+                  </td>
+              </tr>
+            </table>
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+              <tr>
+                <td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+              <tr>
+                <td align="left" style="font-family:Tiempos,Times New Roman,serif;font-size:1em;line-height:1.5;letter-spacing:-0.16px;text-align:left;padding-right:24px;color:#FFFFFE!important;"><font class="nothing" color="#FFFFFE">Layer systems and reliable protection for fast laps across playgrounds, parks and tracks.</font></td>
+              </tr>
+            </table>
+            
+            
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+              <tr>
+                <td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td>
+              </tr>
+            </table>
+            
+            
+            <table border="0" cellpadding="0" cellspacing="0" align="left" role="presentation">
+              <tr>
+                <td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:1em;line-height:1.5;letter-spacing:-0.16px;text-align:left;font-weight:bold;text-decoration:none;color:#FFFFFE!important;">
+                  <a role="link" class="ctaLink" href="https://clicks.zalando.com/f/a/U2xND55oiGtoHiabAZwYAQ~~/AAAHahA~/cG63TnVk6OUfV0IYeQjHq_0N3G5XYwEMq7MkT2fbRE6CA3buGMELGAcl8EkXJL-t5Ne2t4d7vaVf5INIpj0dQAa6WeEuB75gqSjD_16gXpiGe2LeQ13ToMfLcYS4eYeyp_pVLdjvAWb_mkyVTn9AC_BAyBP62dbSp1Jsm_m409B8DQYfi09sOTSWs_cwqa7-CQIMrpVUOhgOJUNk_SGuO2x-vYDjhutoc3VKr1RLtL0I9IE_P46ENBdOY8zC7Y1XMwYZc6pQIDdz-z24aQkT9eOYp_y9Ki--GRZMaMCfzYJOvw6nto09nwJpgvQ_EBCPOAJ2TJpHT-HOsPFNZjWWRGVwvG5zmopuxABhx8mKtmvNUUjKD7wZ6xurXG6ik5Avx3WZxPGVi174TN_SbqcbIo8G3NWwICZcj2wRECvkeLGOf8N9Oh7UbZe71KB_OqBBx1j3_9-YYbGBDmwC8qu2hJ_xPtQIzUuFmY_3FEuTzPJCaW1c58bFHHEQqSrnrXwc5FY6DTIsFw27sdsAltnQ-AO8ifhr3MHlMg0G2hVl29sHM0zNdljniRTmjIfupCof" style="text-decoration:none;color:#FFFFFE!important;" target="_blank"><font class="nothing" color="#FFFFFE">Shop now</font></a>
+                </td>
+                
+                <td aria-hidden="true" align="left" style="padding-right:12px;padding-left:4px;">
+                  <a href="https://clicks.zalando.com/f/a/U2xND55oiGtoHiabAZwYAQ~~/AAAHahA~/cG63TnVk6OUfV0IYeQjHq_0N3G5XYwEMq7MkT2fbRE6CA3buGMELGAcl8EkXJL-t5Ne2t4d7vaVf5INIpj0dQAa6WeEuB75gqSjD_16gXpiGe2LeQ13ToMfLcYS4eYeyp_pVLdjvAWb_mkyVTn9AC_BAyBP62dbSp1Jsm_m409B8DQYfi09sOTSWs_cwqa7-CQIMrpVUOhgOJUNk_SGuO2x-vYDjhutoc3VKr1RLtL0I9IE_P46ENBdOY8zC7Y1XMwYZc6pQIDdz-z24aQkT9eOYp_y9Ki--GRZMaMCfzYJOvw6nto09nwJpgvQ_EBCPOAJ2TJpHT-HOsPFNZjWWRGVwvG5zmopuxABhx8mKtmvNUUjKD7wZ6xurXG6ik5Avx3WZxPGVi174TN_SbqcbIo8G3NWwICZcj2wRECvkeLGOf8N9Oh7UbZe71KB_OqBBx1j3_9-YYbGBDmwC8qu2hJ_xPtQIzUuFmY_3FEuTzPJCaW1c58bFHHEQqSrnrXwc5FY6DTIsFw27sdsAltnQ-AO8ifhr3MHlMg0G2hVl29sHM0zNdljniRTmjIfupCof" style="color:#FFFFFE!important;" target="_blank">
+                  <img src="https://res.cloudinary.com/zalando-global/image/upload/v1730987755/b24plu7o2yrh80jarur2.png" alt="→" width="16" style="display:block;" />
+                  </a>
+                </td>
+                
+              </tr>
+            </table>
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+              <tr>
+                <td height="16" style="font-size:0px;line-height:0px;">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+          
+          <td class="full-width inline_block" align="left" valign="bottom" style="display:inline-block;">
+            <a role="link" href="https://clicks.zalando.com/f/a/9QpeqWhYEAAuTvNVeTMUPA~~/AAAHahA~/zt0rOzldAFggPprvj4wXy0BwRwfZ0xpgv0UpLfBuehe-IS72WULcGWJpZU0s2vPMdsmLDpQaKhVde8CYBRxSbHxM3qiuHZIf_WJG-76aamR0XANW95jATBSWe_9jcpE6eBVr1WeFeOAiBwofEohadO-byu_1YwNPZlKWL0FMV1yzGq9EH_lSwqsdqobm1Ouh2lEbMGCfrQpcp_l_dMJJDdCX2bQymr8X00nm3yZcHAzE9he0gwCtSNhhB6CSwx8MMXSxn09H6hpDs0APCojhz-OuCWaZTA7CActNNfi3p1Hv6stNC0Y-F1remMAih_Du0HSNX8oafZbMQJwHF3egchLxOj_v1fiKI0DSsHfzfr80lh_OQwW8MZZKmiWOD4lHl5exOrFIwpX9I6zNBntqDjqZ2Cw-Z-nKqSlvkNKSkEOZkxFLD-POdOEnDoXXGSiDawbOVLnKIeeC3AIQpzhatlMtdspsZvrKbTKON6iTMGQ2-15JuiCLfOoA8KUHE45xZShwmRKi2iaeCWFKpQ8Qap_JQ_WgafAuxdbcd6vADDxYmUtq0Y-3JPKQIog9BL-v" target="_blank" style="text-decoration:none;">
+              <div style="margin:0;font-size:0;line-height:0;"><img class="full-width" src="https://img01.ztat.net/banner/cef05d33b6a84a829b08eae248b3004a/262611ffcc334900979ed3b921c859c8.jpg?imwidth=750?imwidth=600" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:290px;height:auto;" width="290" border="0" alt="Three children joyfully sprinting on a blue track, crossing the orange finish line tape during a race."></div>
+            </a>
+          </td>
+          
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+  
+
+<!-- Extract RGB components from the HEX code --><!-- Convert Hex to Decimal Function --><!-- Convert Red (r_hex) --><!-- Convert Green (g_hex) --><!-- Convert Blue (b_hex) --><!-- Set alpha (a) and opacity (o) -->
+<!-- Apply alpha/opacity calculations --><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#06517C" style="#06517C">
+
+
+  <tr>
+    <td style="padding-right:18px;padding-left:18px;padding-top:24px;">
+      <!--[if (gte mso 9)|(IE)]>
+      <table role="presentation" width="100%">
+        <tr>
+          <td width="50%" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+            <![endif]-->
+            <table role="presentation" class="full-width" border="0" cellpadding="0" cellspacing="0" width="100%" align="left" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;">
+              <tr><td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/U_Ia_wW6Cm2D-Ls6tznD2w~~/AAAHahA~/ug2c-NnktZE88pK5grctShfDY9HPIYy3HGZWy_W0knGEEf9ZU8EW4d7OtTApeVIXJF5rdJAbMHtEIRrNNmmcgMz1EsEtZo1rrZzix9LIQFg6RazttbRo2O2UtEpsxYvemomQ9-UBu-Q45OGwLgr6QN-R6WEih5IxJTNuzwRbmnC87GtFn0v0HyZ5UIxgTIsOEN7GZwKZ2ZWtPLao43vU6aKScdQkzONQNY58jsb2LwwqfBg2umbKTtqax4cB1V5PjWBSAc276hLwx2TIX9UlCjfnH4dW8GSUED-IMhRiY16A4I1NUEP4t8w1XmE_Ix3Ssk-rZOD1O5DTSD3x4F-8UdbmxJg0ZEThykc3WDtlI6quB8TRm_Ea0SQXOGOI8FXz8ZDTmu8vUqV81DYaljVRyx887VlyYFZbL5KhWk7dDa4DRZ6sZdQxZkh_EWio-3hgCPocHEybnQOK4-0FJ-wWOhH5Ojb_nxGrZCqMbbPhMcjKd7H79dRWnBVEfd9VGy3T5aQWvF922xtWQXyhxJstEgqBbfuXP1-9Ez7Ut8NqfpyNhhPJ9xAyek2LjZyF0oIA_CS1glfuthHnM03fUxr21C1JjL5unJr72gxhnBzT3p0~" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/c7a3802525d44a0f93dc4f142c680e58/4cd509b1e52f42e99ed20322f754e465.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="Blue running shoe with neon yellow logo and sole details, white cushioned midsole, mesh upper, and laces against a neutral background.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Kids
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#FFFFFE!important;">
+        Mizuno
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#FFFFFE!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;color:#FFFFFE!important;">€69.95</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                <td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/SzroX4HE21v272dyKmTmdA~~/AAAHahA~/2gOBlZXYnjO2wnHt8rJD80VFnhC_jD4F9GlEXMgCjUjdLwW8Q4h2aVQZrnCSlN-VTErlPEYgDmdSPpu0e860Y-qU0nutHtXYxlhkzie1ax4ja1KIkL2jJY6MgVVHffNFPDlWnmCR91AZ9bGIAUtXdccKdpvu_tRBcVC4Z_tWZFIBLmhJu3DFRwEmdB2WWVDaFEQar0-bKTFRcazUOIFNr1lKQboTZCBnIXv55QDJ00Y0jMu3CCVFlkmFhhJSs3vo-R61IPzCOr8DqO6SgotyeG2XJuKm-_jjyaUZ7cYeBZ4-NYGbg0HOP8Igs0hVrZCR6Dn26c03AWJ1kjZ2FpVBegDG6owVQS87StZHhScnaqLEY5Y3AOcGr1QkNqcrca1XSZRS6vCtK-XT2d4HKcUd7kZG7_0inhOaYtIvlMI8LKk-n5K9aD4yaifcOR59EJ3WeKSU_FZ95WpJCtCm3MKNDAsP--Rar06xzc3W7oVvTXN1J_km1wvZ7VtEgcgYpB6Pmyzt_Hu4C-9V4QZEehAaRg1JkqAeHzt-GAPH8H6C1fG0bVQ8lNQliJB_VjyrOKsssoTgI_WvVADpXfSB0HKnvn-SE2h4CcU9Wf2DtpRY8to~" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/28cd6be386344f04ba5961f8c70188e0/d42eec45ca7f48d1b7195a85cfb6ad70.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="White athletic shoe with green sole and logo, breathable mesh upper, and cushioned midsole designed for running or sports activities.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Kids
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#FFFFFE!important;">
+        Mizuno
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#FFFFFE!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;color:#FFFFFE!important;">€69.95</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                
+              </tr>
+            </table>
+            
+            <!--[if (gte mso 9)|(IE)]>
+          </td>
+          <![endif]--><!--[if (gte mso 9)|(IE)]>
+          <td width="50%" valign="top">
+            <![endif]-->
+            <table role="presentation" class="full-width" border="0" cellpadding="0" cellspacing="0" width="100%" align="left" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;">
+              <tr><td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/yW3y5FWDGK_YSXOz7zO58w~~/AAAHahA~/HnDdrFVcOYPlpFDkR8iejoFld9L_WxSrppENB0PLFLnTo2RV3r2v-YzjsGCHCB9B0vxW0JXN6dgIq1DWsP4kwNCW4Yuecjraeo970govO7ch5xH4CRjgMWBWeBB82kEAsRLjUa99O7g-sciDCHe2RDrq6O87svH6MzaZenOTh2jc2fL8JQZHIrFkojpOSxLWUFSky2gE3NSvSaIrdtHbLZh4H-KkdGM_utKUiXWKR30iKKrfcZaiXILA3X_yBDTiUe5C3TLCXnzSzrQ1kc8TDKXHFJGM2SFPIYz07bDPXlw7BA_LDawY7YyFxl5MWDv34jECW0XGqlSvRRJe1re3tPh03zVn0N4o_8BTJjYW-rxL8mGs2gfpssai6xdkofAQ3cX20oleaIfvyuonQa6-rSScPGfX065zClIe9gOdN4ZscFSX1WSiA1wQ-1qJhmdt2MUtG9x6sA2wqlsZDABlMNflADwnBHU7AyFcJkLdyl2YWHpaEfBRz9xWbNL1RJzNvBwfAtXsSv8HflFNaD_hlkx4P4SjhBiyT0zX3ugBkInHnsoiC4XKacUQfmyhBVSy_hgAFHmZIiy5CIFrKAd7UE1tTKCcRPwLcKkIwdnBOlI~" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/b0344e2bd6054802bbbe49fceb208b0b/24b21bd7f1804245adfaa390fe5d8eb7.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="Light pink athletic running shoe with white wave-textured sole and brand logo on side, viewed from the outer side.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Kids
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#FFFFFE!important;">
+        Mizuno
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#FFFFFE!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;color:#FFFFFE!important;">€69.95</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                <td width="50%" align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+    <tr>
+      <td>
+        
+        
+        <a role="link" href="https://clicks.zalando.com/f/a/N-9pql2YS8kPo_cugVSJnQ~~/AAAHahA~/Reht7b9oJHJkatCntwn0FskoBWUTyZqzbrrjX9J_66UTnz-MHg75JczWHvwcRrhz6ePKZXmWZuG8DL-PQhVcivfmfNjNSt34NN4ePE57gRtn02EWKM8AxOL0nj3SsNtEcV5xXmHnVFbTxlvhCDTAnR8bifuq5E0i-zFlw-1RiYtNZdEB94MMZdi9FswHYQwApMtyofOlRx7GOAOWAvmqJUX1U3jO8515bjsfi9AKLpDOVR_8Pg9AqtJnuu1LiEtfttjjmjdCKEhtnb8L_5VBXuzF1--nUPomO0-k_IHJv_52dSHDhUVFps8md_AQyCLrePASUqkMDt_UyBQBcwoVbpJwm0szvk8jMiFBIugD0putH9rNv2cXz-GgyHsqlwlJEdB4v2rn0T_SkNpaG-6ruXYkc0G8w26LM1m_dgraJPZ9EFPnwBS1XJxouSe_giVQAp_9e5BPxycWzb9f7GG7qxWo7f1Q5sXbFw2ruHg88Yq3u79U2SJyH1YFA_A-pUCF9bPmejCT8zZGmaOYeLNbgcQDQBiQiKCcPzy0ewgLw_yxSGIm5SCCrEosk8TZ0euvVWx-YxnvxT9T3cnkPavRQc9vlFIpdcz6o-etNOH7003buCuMIvpHFW8Kj68-QsnINmYMPxnbzrctL5ac3g6CEg~~" target="_blank">
+        <img class="full-width" src="https://img01.ztat.net/article/spp-media-p1/1983e455936844c19bd379ffcb048bfd/b37eb73152e14250817d88f806e460c6.jpg?imwidth=280&filter=packshot" width="139" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;max-width:139px;height:auto;" border="0" alt="Light green and gray Nike slip-on sneaker with white sole, elastic strap across midfoot, and pull tabs on tongue and heel.">
+        </a>
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="center" style="padding-right:8px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
+          <tr>
+            <td>
+              
+              
+              
+              
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-align:left;font-weight:bold;background-color:#FFFFFE!important;color:#1A1A1A!important;padding-left:4px;padding-right:4px;padding-top:4px;padding-bottom:4px;display:inline-block;">
+              Kids
+              </span>
+              
+            </td>
+          </tr>
+          <tr>
+            <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td align="center" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;color:#FFFFFE!important;">
+        Nike Performance
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" style="padding-right:24px;color:#FFFFFE!important;">
+        
+          
+            
+              <span style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.429;letter-spacing:0px;color:#FFFFFE!important;">€37.95</span> 
+            
+            <br/>
+          
+        
+      </td>
+    </tr>
+    
+    <tr>
+      <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+    </tr>
+  </table>
+</td>
+
+                
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+          </td>
+          <![endif]--><!--[if (gte mso 9)|(IE)]>
+        </tr>
+      </table>
+      <![endif]-->
+      
+    </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+  <tr>
+    <td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+  </tr>
+</table>
+
+
+  
+
+  
+
+
+  
+  
+  
+	
+  
+<table border="0" cellpadding="0" cellspacing="0" width="100%" align="left" role="presentation">
+  <tr>
+    <td style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:1.5em;line-height:1.3333;letter-spacing:-0.24px;text-align:left;font-weight:bold;color:#1A1A1A;margin:0;padding-left:24px;padding-right:24px;">Explore boards</td>
+  </tr>
+  <tr>
+    <td style="font-family:Tiempos,Times New Roman,serif;font-size:1.5em;line-height:1.3333;letter-spacing:-0.24px;text-align:left;color:#1A1A1A;font-weight: normal;margin:0;padding-left:24px;padding-right:24px;">Your daily dose of kids fashion</td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+  <tr>
+    <td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+  <tr>
+    <td style="padding-right:18px;padding-left:18px;">
+      <!--[if (gte mso 9)|(IE)]>
+      <table align="center" border="0" cellspacing="0" cellpadding="0" width="604" role="presentation">
+        <tr>
+          <td align="center" valign="top" width="604" role="presentation">
+            <![endif]-->
+            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:604px;">
+              <tr>
+                <td style="font-size:0;" valign="top" align="center">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" width="604">
+                    <tr>
+                      <td align="left" valign="top" width="302">
+                        <![endif]-->
+                        <table role="presentation" style="width:302px;" width="302" class="full-width" cellspacing="0" cellpadding="0" border="0" align="left">
+                          <tr>
+                            <td align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+                                <tr>
+                                  <td aria-hidden="true">
+                                    <a href="https://clicks.zalando.com/f/a/pXTe-w92c3UNNtvYwZXELg~~/AAAHahA~/jtU-a_yeEXw_B1PZEMCAUg9SWh0_HLlb5Ta_Kq1va1MBRdeZvMuQUKetw7_e30Q3XPN9XO-jP4qRqIx5vMSRQKTtlJtesMHmWMq2e74dyQ1pljOw9XXhGk2BzxF5nf1J7q5EVrIqQYye_QKCEqWCxYu7If8Jmn5RcGalT1D7QW8e-6Wx-G2DBcPvVHHSpRQtPKG5U3TN-o2QvReHBYS9LCBg-EAgINbmE8OBpgWcZ8uJlOVlYhew9jPsUVGLdKjJ5oitcial_56uAejAbjfOpu0MgtHCZHViIifjRATqAnoDMRPrs-2FAOKMExuAE7d6kxyvJOVp0ucyDuV2CQEyt4aBs6D8W2fjfApIunZbTyzAkYAjsu-XoLf6Q9xbV7Ou92E4V7mX7qzGRIQE7C3Gt3IvROzbCEC8LwXfMetOj4ar10MdqrG3ZOBTDtjE89fXtp46R6YOTZWU3CGgpYQDWR-mewR3WNwjxCTS8HnfwLs5cyz7MvmEoYXrrxLOSWtHfr__9OyxbvWeXyfo0KUclQ~~" target="_blank">
+                                    <img class="full-width" src="https://img01.ztat.net/cnt/contentful-apps/uploads/142029df-c6a4-45bb-8c24-1b43d902f9f6.jpeg?imwidth=500" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;height:auto;max-width:290px;" width="290" border="0" alt=""/>
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                              <table class="nothing" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#EFEFF0" style="font-size:medium; font-size:max(16px, 1rem);">
+                                <tr>
+                                  <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+                                </tr>
+                                
+                                <tr>
+                                  <td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;font-weight:bold;color:#1A1A1A !important;padding-left:8px;padding-right:8px;">
+                                    <a role="link" href="https://clicks.zalando.com/f/a/pXTe-w92c3UNNtvYwZXELg~~/AAAHahA~/jtU-a_yeEXw_B1PZEMCAUg9SWh0_HLlb5Ta_Kq1va1MBRdeZvMuQUKetw7_e30Q3XPN9XO-jP4qRqIx5vMSRQKTtlJtesMHmWMq2e74dyQ1pljOw9XXhGk2BzxF5nf1J7q5EVrIqQYye_QKCEqWCxYu7If8Jmn5RcGalT1D7QW8e-6Wx-G2DBcPvVHHSpRQtPKG5U3TN-o2QvReHBYS9LCBg-EAgINbmE8OBpgWcZ8uJlOVlYhew9jPsUVGLdKjJ5oitcial_56uAejAbjfOpu0MgtHCZHViIifjRATqAnoDMRPrs-2FAOKMExuAE7d6kxyvJOVp0ucyDuV2CQEyt4aBs6D8W2fjfApIunZbTyzAkYAjsu-XoLf6Q9xbV7Ou92E4V7mX7qzGRIQE7C3Gt3IvROzbCEC8LwXfMetOj4ar10MdqrG3ZOBTDtjE89fXtp46R6YOTZWU3CGgpYQDWR-mewR3WNwjxCTS8HnfwLs5cyz7MvmEoYXrrxLOSWtHfr__9OyxbvWeXyfo0KUclQ~~" target="_blank" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;font-weight:bold;color:#1A1A1A !important;width:100%;display:inline-block;">Streetwear code</a>
+                                  </td>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                  <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+                                </tr>
+                              </table>
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+                                <tr>
+                                  <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                      <td align="left" valign="top" width="302">
+                        <![endif]-->
+                        
+                        <table role="presentation" style="width:302px;" width="302" class="full-width" cellspacing="0" cellpadding="0" border="0" align="left">
+                          <tr>
+                            <td align="left" valign="top" style="padding-left:6px;padding-right:6px;">
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+                                <tr>
+                                  <td aria-hidden="true">
+                                    <a href="https://clicks.zalando.com/f/a/7nAzDL7tNqx5jwjuwCM18g~~/AAAHahA~/jtU-a_yeEXw_B1PZEMCAUg9SWh0_HLlb5Ta_Kq1va1NPDfiqK07l9ZK1nnUdLN4SlPPOGwkmaXUG16I2OKFu5um3LfXbEQpWPs45ugQE-By4q2lBX4croAnuwSoS8URFX2WyabqDqe6El9eWrpEd-62NTxWgdjiLjY32Du8EGPqfBlBNcx3j2m-z5LPcquVZxXnF-8aYsW1mMBHtCFxTr-UvX6AMCkapILlb1QzXfUKs3yX3WykP6Cdr8BpVW_9uoaHxqtc696QAoFfeVg0OZ5M2IpxQwzlWpJDf92CHVSByfUjXroCqQrVujcmPx9lkfLPpVPtGbbfIoph4vUgZUf7BDooR85lqlHomaVfIgvIc519PKaHdS9szvIhcgAvfbDZ973lqDoRGoP03GVJP4dEfn9kgIjA0I9_jlxdyypv3NK2nOYE7T24ZIr4c0IKcHe79JqCLnwXnNaihl_Ly6TopNRuv1cI-EmroNM85TkWDlpMMJgzY-mdgVO6h_8vevojsGQzMhQVTR4rXCeWLyQ~~" target="_blank">
+                                    <img class="full-width" src="https://img01.ztat.net/cnt/contentful-apps/uploads/5c3128f1-4e70-46f7-87f6-b917b52ab2e2.jpeg?imwidth=500" style="font-family:Tiempos,Times New Roman,serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:center;text-decoration:none;background-color:#EFEFF0;color:#1A1A1A!important;display:block;width:100%;height:auto;max-width:290px;" width="290" border="0" alt=""/>
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                              <table class="nothing" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#EFEFF0" style="font-size:medium; font-size:max(16px, 1rem);">
+                                <tr>
+                                  <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+                                </tr>
+                                
+                                <tr>
+                                  <td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;font-weight:bold;color:#1A1A1A !important;padding-left:8px;padding-right:8px;">
+                                    <a role="link" href="https://clicks.zalando.com/f/a/7nAzDL7tNqx5jwjuwCM18g~~/AAAHahA~/jtU-a_yeEXw_B1PZEMCAUg9SWh0_HLlb5Ta_Kq1va1NPDfiqK07l9ZK1nnUdLN4SlPPOGwkmaXUG16I2OKFu5um3LfXbEQpWPs45ugQE-By4q2lBX4croAnuwSoS8URFX2WyabqDqe6El9eWrpEd-62NTxWgdjiLjY32Du8EGPqfBlBNcx3j2m-z5LPcquVZxXnF-8aYsW1mMBHtCFxTr-UvX6AMCkapILlb1QzXfUKs3yX3WykP6Cdr8BpVW_9uoaHxqtc696QAoFfeVg0OZ5M2IpxQwzlWpJDf92CHVSByfUjXroCqQrVujcmPx9lkfLPpVPtGbbfIoph4vUgZUf7BDooR85lqlHomaVfIgvIc519PKaHdS9szvIhcgAvfbDZ973lqDoRGoP03GVJP4dEfn9kgIjA0I9_jlxdyypv3NK2nOYE7T24ZIr4c0IKcHe79JqCLnwXnNaihl_Ly6TopNRuv1cI-EmroNM85TkWDlpMMJgzY-mdgVO6h_8vevojsGQzMhQVTR4rXCeWLyQ~~" target="_blank" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;text-align:left;font-weight:bold;color:#1A1A1A !important;width:100%;display:inline-block;">Adventure-ready kids</a>
+                                  </td>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                  <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+                                </tr>
+                              </table>
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+                                <tr>
+                                  <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        
+                        <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                    </tr>
+                  </table>
+                  <![endif]-->
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+    </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+  <tr>
+    <td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+  </tr>
+</table>
+
+
+    
+  
+
+
+  
+  
+  
+  
+	
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+    <tr>
+        <td align="left" style="font-family:Tiempos,Times New Roman,serif;font-size:1em;line-height:1.5;letter-spacing:-0.16px;text-align:left;color:#1A1A1A;padding-left:24px;padding-right:24px;">
+          Best wishes,<br/>Your Zalando Team
+        </td>
+    </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+	<tr>
+		<td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+	</tr>
+</table>
+  
+
+  
+
+
+  
+  
+  
+
+
+<table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#6328E0">
+  <tr>
+    <td style="padding-left:24px;padding-right:24px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+        <tr>
+          <td height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+      </table>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="left">
+        <tr>
+          <td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;font-weight:bold;color:#FFFFFE!important;">Find inspiration</td>
+        </tr>
+        <tr>
+          <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left">
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="left">
+              <tr>
+                <td align="left" style="padding-right:6px;">
+                  <a role="link" href="https://clicks.zalando.com/f/a/bREE3acH8OzHi3QHkzt-Rg~~/AAAHahA~/PCD0qz-CvgEvdJ2PksyMRKfVMSfb6uBAKkUKTKZzsezEw1HzeXSTyOwetL6u4-73qc-V50isyXiwsJNhF5-4mAlQ-oBJ01IM-nOFzdD-tIejk2JShSv8w60PWgA4PXtC" target="_blank">
+                  <img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/icon_instagram.png" style="display:block;" width="35" border="0" alt="Instagram" />
+                  </a>
+                </td>
+                <td role="link" align="left" style="padding-right:6px;">
+                  <a href="https://clicks.zalando.com/f/a/ubzqnae05LIM-nTfCK41gA~~/AAAHahA~/fpIdPMbud8-UGmLGlOoRrYZqOIoSPzoThNAMG6QOo9TO_7SMiUzIiVxd8hT_VWdQu-x31sCXyw6xiTF7drVdT5P8arCO29UqejHtKENu0hnsxuZwMIPEzv50k06XfwXq" target="_blank">
+                  <img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/icon_facebook.png" style="display:block;" width="35" border="0" alt="Facebook" />
+                  </a>
+                </td>
+                <td role="link" align="left" style="padding-right:6px;">
+                  <a href="https://clicks.zalando.com/f/a/AFKdQ5nfzEsFx_5FBikf9g~~/AAAHahA~/ENnO1BvD8HzTissOJHVqDragLb5VcsFLss49RG8Xd-H_l5CARmSeROAry4G-mDdDRt-zj-GjVhVyAbzbwb0El2c8s1ky2S_Wt7-Q2mJYSeBSdgHVBGyNMhdndSAk_aig" target="_blank">
+                  <img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/99062661-c7bc-4592-8260-c25ef7ff7d43/icon_tiktok.png" style="display:block;" width="35" border="0" alt="Tiktok" />
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="right">
+        <tr>
+          <td align="right" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.875em;line-height:1.4286;letter-spacing:0px;font-weight:bold;color:#FFFFFE!important;">Shop Easily</td>
+        </tr>
+        <tr>
+          <td aria-hidden="true" height="8" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="right" style="padding-left:6px;text-align:right;">
+                  <a role="link" href="https://clicks.zalando.com/f/a/PlZl8Td0byG8TrvPtsmGgA~~/AAAHahA~/hu-P2U3BXF1M2jbRol2k4D3Gg_Z2MwKEOkaXNb2XpBsYL2E5yyZ1T9WNsP-ZwSVFLdCGW5AbRPFpGau25UwOulE1HWXVFT31R3-qkitfq8ZkSJ9Sj0pnq9gaccOLAWdQgkI7q1_freXIaCT6_8OMZRthDLoF1Zpd0r31Bt7POf0~" target="_blank">
+                  <img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/13c11237-166f-4413-8a00-0616712add40/logo_android.png" style="display:block;" width="35" border="0" alt="Android" />
+                  </a>
+                </td>
+                <td align="right" style="padding-left:6px;text-align:right;">
+                  <a role="link" href="https://clicks.zalando.com/f/a/sPvrZhZ_9xUn3zPbWNhqpA~~/AAAHahA~/LBdboFG2gVnjTqg3RAM_9thZmycZdz1wqVxHX5hwxbWkdx8udKRsVbuVLQt0iBZJKucxG1-5_Tax9y-SELRU-ojLpph-Ucrmvx4IrUTIRxCJaKnFXXBAaPlDYNeEsCrbW258DKV-PxALtv55Btey7mmW4ypxqzOQZl69o70VoDE~" target="_blank">
+                  <img src="https://mosaic01.ztat.net/cuo/messages/810d1d00-4312-43e5-bd31-d8373fdd24c7/13c11237-166f-4413-8a00-0616712add40/logo_apple.png" style="display:block;" width="35" border="0" alt="iOS" />
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+        <tr>
+          <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+      </table>
+      <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" >
+        <tr>
+          <td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-decoration:none;color:#FFFFFE!important;">
+            <b>Legal notice</b><br/>Zalando.nl is brought to you by Zalando SE<br/>Zalando SE, Valeska-Gert-Straße 5, 10243 Berlin, Germany | Management Board:
+            Robert Gentz & David Schröder (both co-Chairs of the Board), Dr. Astrid Arndt, Anna Dimitrova, David Schneider | Chairperson of the Supervisory Board:
+            Kelly Bennett | Registered at Amtsgericht Charlottenburg Berlin, HRB 158855 B | VAT ID: DE 260543043 | Tax number: 37/132/45004 | <a href="https://clicks.zalando.com/f/a/LvfHUnrbgibZBYgRzBoYIg~~/AAAHahA~/YM_uzg9Wh_3zwNqgveBDN29jY-HRyMDI4dn-Fp90O-yO5pPkxV0Q_kUnbLAHLu9cXwmygMxd-wbE9111E1TOSahoSzyfcQjXprOlsJj6SjIgy-cd-NElaMLRJi4rzP9AuRmftoEN1IngyL075DUBmNNfUN1Qzbmj3853d4WC1P3ByUvuKo9Wjs9Rwbs9al0wynKX6EozjbxqALeuFUFhMA3kNuowR982vgRHwaH0Iu_0au5Gzy1PYlJLt1NDgoQnqwk-4IZWqKFAv9wxekbsol4tUZBYnPxyOxJ-CuZ8B1S7LMmKiIivRc_xSL6SvuyU0nxqPvgENVTKBrCgcYcCFFXTk-qe4ZWsnrqqbIycOedM2ipipJVX8k1xfHYE4DdDEThpEjR2majInF_wmkYJcoJHuP3vDoU0N3A31bV_l4tEsNyVFbt4nUG8z-OGZCZ9sYjpegh6NGUMzoRPNbkpfg~~" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">See more details</a>
+          </td>
+        </tr>
+        <tr>
+          <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left" style="font-family:HelveticaNow,Helvetica,sans-serif;font-size:0.75em;line-height:1.3333;letter-spacing:0px;text-decoration:none;color:#FFFFFE!important;">
+            All prices include VAT. Only while stock lasts. All prices subject to change. "Originally" refers to the item's first listing price or recommended retail price. Zalando SE has assigned its claims under the above referenced purchase to Zalando Payments GmbH.<br/><br/>Responsible for contents of Zalando SE: Robert Gentz<br/><br/>We aim to keep your emails relevant but know that inboxes can fill up quickly.<br/><br/><!--/* Link to preference center */-->Seeing us too often? Many customers choose what they want to receive by adjusting their <a href="https://clicks.zalando.com/f/a/5e5ByGGkDQA2KDg23cxfNg~~/AAAHahA~/8KmGHeqRbFGCQcdVg5SDqfcDqj2jMzb6UvnzuSMnK0yiDm5ABHRcN-6xBSgwOs26OouvWo78TaqmlyOx1joFbMWsEGurLHg97j9HHmBAOFIMZhi2ZPG2S9-gPkQCxO-rse7OwdHdekmmrtJXiijepkolZPb-0v3pU2F0r0UV5vEdPzqHvV6djCrWDflZ7-kuNsEN2_akWX-Bo1E00V3nz0JMEYb7xbKeaczeEtrqCY_ln5U-zXWxji-DQu99h14lXcoyD57nX1rQ7ud5T2oy2Tv53VWt-DUcnvXroHqzyK7JtBMQTenLzkPgMs8m6YElYBvG8WdmToZbuKW8We-kPjhMbO04Ay9o8YkB9rbIGjQgjfyV4JoNiLpQNQmDzo1ynko6l6HT_k4MMB2OsJ1Z6f4Q33dNS6_7Fd1iaXjKdG2YYWJSEgcG78kVjxSQgd5tOsljNfHi2bcu39qDI_B97949KxxRSsRrSG_FYDPeaKc~" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">email preferences</a>.<!--/* unsubsubscription from all commercial messages */--><br/><br/>If you’d rather pull the plug, we won’t take it personally: you can <a href="https://clicks.zalando.com/f/a/p2juR4LbdnuA0J5wyMsbjw~~/AAAHahA~/8tj4WvSVlcnM96JhxGgswqq44Osxau-AuQUI2LTTVWgR-jmKjgGIfXE7kp47enV_k4KWchlCP0K59dYBxs-MBgwgh3E8M9Jgjiuw6M7-qm9paQ0a5UYvsPUEPOgvP6EiG70yZ-8Fh38WPe34mL7BuiSni-1-fnhDJxdGfxU61WPlUyf4uN-Ruo0vVNTl3ZPh5boxepKBu2QVb_28OS6Ym9-qdJG_vv5DdVnZzsovCZ8hk8CLgmmIxb349dUdbVLkf-U_QQNKnY0W8yd5NYudFLfLmP3p2ze7kGy5pGktDTlWaWRlr8qK-YcIL88yI0jy7790W8zsrX9ILp9zYL7m6pmD3pizuA_orstfjnbvePYspkh_xJCrzC09isVkg-mUEi5TzV_VY9hhOeBVUN65v5KmzQJrDbKGKUwf3LFTkgdNqqhLgpQhrPwQWskqoN17gkoYvCGRXCvIYoBAOycsu-Yg5oe6_CG1bktcFrlenlSnG7bBTvfQ5QnH8WUnpP0uw-gfArE0bdY0lpvel7il4A~~" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">unsubscribe</a> from all commercial messages sent by Zalando.nl.<br/><br/>This is an automatic email, please do not reply. Find out how to get in touch by visiting our <a href="https://clicks.zalando.com/f/a/JA1PxZd3aqtoGqYSMnk4Yg~~/AAAHahA~/djUVLo0QkqXVKznwrdcIrI81D_ypWuxeIOIcZjpwCJWU5aysrrw5rjg3nVVK0asNazH97ItBvUH0v2st3H8V0FzblQxdrcldIIhQ2Q-8KMNiOAdu9kTNBrp3kIr8Nu5C" target="_blank" style="color:#FFFFFE !important;text-decoration:underline;">help and contact</a> pages.
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" aria-hidden="true">
+        <tr>
+          <td aria-hidden="true" height="24" style="font-size:0px;line-height:0px;">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<a name="footer"></a>
+
+
+						</td>
+					</tr>
+					<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+				</table>
+			</td>
+		</tr>
+		<!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+	</table>	
+	<!--/* Styles for Yahoo - this should be inside of the body tag in order to work in Yahoo */-->
+	<table class="hide darkmode" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#f2f2f2" aria-hidden="true">
+		<tr>
+			<td height="40" style="font-size:0px;line-height:0px;">&nbsp;</td>
+		</tr>
+	</table>
+
+<img border="0" width="1" height="1" alt="" src="https://clicks.zalando.com/q/uf3aHm4GQZeTfiMCscULug~~/AAAHahA~/0UV3EwnE6DFjrFmp5X1a-QCqwdqFgUG5Npqm2wqCMgtQ65R77CPCxHsRBrGcEtRlub-k61ZuH9XO_ypf6LJcKg~~">
+</body>
+</html>
+
+</body></html>
